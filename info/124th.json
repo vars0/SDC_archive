@@ -1,23 +1,26 @@
 [
     {
-        "title": "보도지침",
-        "subtitle": "2023 제125회 여름대공연",
+        "title": "분장실",
+        "subtitle": "2022 제124회 겨울대공연",
         "date": "0000.00.00~0000.00.00",
         "times": 7,
         "place": "피카소 소극장 (서울 종로구 대학로 11길 38-11)",
         "poster": "https://127th.skkudramaclub.kr/",
-        "연출": {
-            "class": 62,
-            "name": "허은세",
-            "isleader": true
-        },
-        "조연출": {
-            "class": 63,
-            "name": "장연희"
-        },
+        "연출": [
+            {
+                "class": 63,
+                "name": "장선웅",
+                "isleader": true
+            },
+            {
+                "class": 63,
+                "name": "장연희",
+                "isleader": true
+            }
+        ],
         "기획팀장": {
-            "class": 62,
-            "name": "이채연",
+            "class": 63,
+            "name": "이재욱",
             "isleader": true
         },
         "기획": [
