@@ -1,20 +1,26 @@
 [
     {
-        "title": "보도지침",
-        "subtitle": "2023 제125회 여름대공연",
+        "title": "점과점을있는선..",
+        "subtitle": "2022 제123회 여름대공연",
         "date": "0000.00.00~0000.00.00",
         "times": 7,
         "place": "피카소 소극장 (서울 종로구 대학로 11길 38-11)",
         "poster": "https://127th.skkudramaclub.kr/",
         "연출": {
-            "class": 62,
-            "name": "허은세",
+            "class": 6,
+            "name": "이창기",
             "isleader": true
         },
-        "조연출": {
-            "class": 63,
-            "name": "장연희"
-        },
+        "조연출": [
+            {
+                "class": 61,
+                "name": "정준원"
+            },
+            {
+                "class": 62,
+                "name": "허은세"
+            }
+        ],
         "기획팀장": {
             "class": 62,
             "name": "이채연",
