@@ -20,17 +20,7 @@
             "name": "이채연",
             "isleader": true
         },
-        "무대감독": {
-            "class": 61,
-            "name": "정준원",
-            "isleader": true
-        },
         "기획": [
-            {
-                "class": 62,
-                "name": "이채연",
-                "isleader": true
-            },
             {
                 "class": 61,
                 "name": "김동건"
