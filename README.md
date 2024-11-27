@@ -8,6 +8,7 @@
 2. info: 공연 정보
 3. review: 공연 후기
 4. poster: 포스터
+5. server: nestjs 기반 데이터 처리 서버
 
 ## 파일 내용
 

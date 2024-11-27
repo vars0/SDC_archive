@@ -1,0 +1,948 @@
+[
+  {
+    "class": 6,
+    "name": "이창기",
+    "roles": [
+      {
+        "role": "연출",
+        "history": [
+          "123th"
+        ]
+      }
+    ],
+    "totalRoles": 1,
+    "totalLeaderRoles": 1
+  },
+  {
+    "class": 61,
+    "name": "정준원",
+    "roles": [
+      {
+        "role": "조연출",
+        "history": [
+          "123th"
+        ]
+      },
+      {
+        "role": "무대감독",
+        "history": [
+          "124th"
+        ]
+      },
+      {
+        "role": "연출",
+        "history": [
+          "126th"
+        ]
+      }
+    ],
+    "totalRoles": 3,
+    "totalLeaderRoles": 2
+  },
+  {
+    "class": 62,
+    "name": "허은세",
+    "roles": [
+      {
+        "role": "조연출",
+        "history": [
+          "123th"
+        ]
+      },
+      {
+        "role": "연출",
+        "history": [
+          "125th"
+        ]
+      }
+    ],
+    "totalRoles": 2,
+    "totalLeaderRoles": 1
+  },
+  {
+    "class": 62,
+    "name": "이채연",
+    "roles": [
+      {
+        "role": "기획팀장",
+        "history": [
+          "123th",
+          "125th",
+          "126th",
+          "127th"
+        ]
+      }
+    ],
+    "totalRoles": 4,
+    "totalLeaderRoles": 4
+  },
+  {
+    "class": 61,
+    "name": "김동건",
+    "roles": [
+      {
+        "role": "기획",
+        "history": [
+          "123th",
+          "124th",
+          "125th",
+          "126th",
+          "127th"
+        ]
+      }
+    ],
+    "totalRoles": 5,
+    "totalLeaderRoles": 0
+  },
+  {
+    "class": 63,
+    "name": "이유진",
+    "roles": [
+      {
+        "role": "기획",
+        "history": [
+          "123th",
+          "124th",
+          "125th",
+          "126th",
+          "127th"
+        ]
+      }
+    ],
+    "totalRoles": 5,
+    "totalLeaderRoles": 0
+  },
+  {
+    "class": 64,
+    "name": "금유빈",
+    "roles": [
+      {
+        "role": "기획",
+        "history": [
+          "123th",
+          "124th",
+          "125th",
+          "126th",
+          "127th"
+        ]
+      }
+    ],
+    "totalRoles": 5,
+    "totalLeaderRoles": 0
+  },
+  {
+    "class": 64,
+    "name": "강성휘",
+    "roles": [
+      {
+        "role": "기획",
+        "history": [
+          "123th",
+          "124th",
+          "125th",
+          "126th",
+          "127th"
+        ]
+      }
+    ],
+    "totalRoles": 5,
+    "totalLeaderRoles": 0
+  },
+  {
+    "class": 64,
+    "name": "전유진",
+    "roles": [
+      {
+        "role": "기획",
+        "history": [
+          "123th",
+          "124th",
+          "125th",
+          "126th",
+          "127th"
+        ]
+      }
+    ],
+    "totalRoles": 5,
+    "totalLeaderRoles": 0
+  },
+  {
+    "class": 64,
+    "name": "강민재",
+    "roles": [
+      {
+        "role": "기획",
+        "history": [
+          "123th",
+          "124th",
+          "125th",
+          "126th",
+          "127th"
+        ]
+      }
+    ],
+    "totalRoles": 5,
+    "totalLeaderRoles": 0
+  },
+  {
+    "class": 64,
+    "name": "홍주안",
+    "roles": [
+      {
+        "role": "기획",
+        "history": [
+          "123th",
+          "124th",
+          "125th",
+          "126th",
+          "127th"
+        ]
+      }
+    ],
+    "totalRoles": 5,
+    "totalLeaderRoles": 0
+  },
+  {
+    "class": 6,
+    "name": "이현진",
+    "roles": [
+      {
+        "role": "무대",
+        "history": [
+          "123th",
+          "124th",
+          "125th",
+          "126th",
+          "127th"
+        ]
+      }
+    ],
+    "totalRoles": 5,
+    "totalLeaderRoles": 0
+  },
+  {
+    "class": 6,
+    "name": "김수영",
+    "roles": [
+      {
+        "role": "무대",
+        "history": [
+          "123th",
+          "124th",
+          "125th",
+          "126th",
+          "127th"
+        ]
+      }
+    ],
+    "totalRoles": 5,
+    "totalLeaderRoles": 0
+  },
+  {
+    "class": 6,
+    "name": "김태웅",
+    "roles": [
+      {
+        "role": "무대",
+        "history": [
+          "123th",
+          "124th",
+          "125th",
+          "126th",
+          "127th"
+        ]
+      }
+    ],
+    "totalRoles": 5,
+    "totalLeaderRoles": 0
+  },
+  {
+    "class": 6,
+    "name": "이예원",
+    "roles": [
+      {
+        "role": "무대",
+        "history": [
+          "123th",
+          "124th",
+          "125th",
+          "126th",
+          "127th"
+        ]
+      }
+    ],
+    "totalRoles": 5,
+    "totalLeaderRoles": 0
+  },
+  {
+    "class": 6,
+    "name": "백제준",
+    "roles": [
+      {
+        "role": "무대",
+        "history": [
+          "123th",
+          "124th",
+          "125th",
+          "126th",
+          "127th"
+        ]
+      }
+    ],
+    "totalRoles": 5,
+    "totalLeaderRoles": 0
+  },
+  {
+    "class": 6,
+    "name": "조윤서",
+    "roles": [
+      {
+        "role": "무대",
+        "history": [
+          "123th",
+          "124th",
+          "125th",
+          "126th",
+          "127th"
+        ]
+      }
+    ],
+    "totalRoles": 5,
+    "totalLeaderRoles": 0
+  },
+  {
+    "class": 6,
+    "name": "탁현서",
+    "roles": [
+      {
+        "role": "무대",
+        "history": [
+          "123th",
+          "124th",
+          "125th",
+          "126th",
+          "127th"
+        ]
+      }
+    ],
+    "totalRoles": 5,
+    "totalLeaderRoles": 0
+  },
+  {
+    "class": 6,
+    "name": "이주연",
+    "roles": [
+      {
+        "role": "무대",
+        "history": [
+          "123th",
+          "124th",
+          "125th",
+          "126th",
+          "127th"
+        ]
+      }
+    ],
+    "totalRoles": 5,
+    "totalLeaderRoles": 0
+  },
+  {
+    "class": 6,
+    "name": "임태희",
+    "roles": [
+      {
+        "role": "무대",
+        "history": [
+          "123th",
+          "124th",
+          "125th",
+          "126th",
+          "127th"
+        ]
+      }
+    ],
+    "totalRoles": 5,
+    "totalLeaderRoles": 0
+  },
+  {
+    "class": 6,
+    "name": "천유진",
+    "roles": [
+      {
+        "role": "조명",
+        "history": [
+          "123th",
+          "124th",
+          "125th",
+          "126th",
+          "127th"
+        ]
+      }
+    ],
+    "totalRoles": 5,
+    "totalLeaderRoles": 0
+  },
+  {
+    "class": 6,
+    "name": "한광현",
+    "roles": [
+      {
+        "role": "조명",
+        "history": [
+          "123th",
+          "124th",
+          "125th",
+          "126th",
+          "127th"
+        ]
+      }
+    ],
+    "totalRoles": 5,
+    "totalLeaderRoles": 0
+  },
+  {
+    "class": 6,
+    "name": "유선아",
+    "roles": [
+      {
+        "role": "조명",
+        "history": [
+          "123th",
+          "124th",
+          "125th",
+          "126th",
+          "127th"
+        ]
+      }
+    ],
+    "totalRoles": 5,
+    "totalLeaderRoles": 0
+  },
+  {
+    "class": 6,
+    "name": "이재욱",
+    "roles": [
+      {
+        "role": "조명",
+        "history": [
+          "123th",
+          "124th",
+          "125th",
+          "126th",
+          "127th"
+        ]
+      }
+    ],
+    "totalRoles": 5,
+    "totalLeaderRoles": 0
+  },
+  {
+    "class": 6,
+    "name": "조한상",
+    "roles": [
+      {
+        "role": "조명",
+        "history": [
+          "123th",
+          "124th",
+          "125th",
+          "126th",
+          "127th"
+        ]
+      }
+    ],
+    "totalRoles": 5,
+    "totalLeaderRoles": 0
+  },
+  {
+    "class": 6,
+    "name": "윤태우",
+    "roles": [
+      {
+        "role": "조명",
+        "history": [
+          "123th",
+          "124th",
+          "125th",
+          "126th",
+          "127th"
+        ]
+      }
+    ],
+    "totalRoles": 5,
+    "totalLeaderRoles": 0
+  },
+  {
+    "class": 6,
+    "name": "강태영",
+    "roles": [
+      {
+        "role": "조명",
+        "history": [
+          "123th",
+          "124th",
+          "125th",
+          "126th",
+          "127th"
+        ]
+      }
+    ],
+    "totalRoles": 5,
+    "totalLeaderRoles": 0
+  },
+  {
+    "class": 6,
+    "name": "김효성",
+    "roles": [
+      {
+        "role": "조명",
+        "history": [
+          "123th",
+          "124th",
+          "125th",
+          "126th",
+          "127th"
+        ]
+      }
+    ],
+    "totalRoles": 5,
+    "totalLeaderRoles": 0
+  },
+  {
+    "class": 6,
+    "name": "장선웅",
+    "roles": [
+      {
+        "role": "음향",
+        "history": [
+          "123th",
+          "124th",
+          "125th",
+          "126th",
+          "127th"
+        ]
+      }
+    ],
+    "totalRoles": 5,
+    "totalLeaderRoles": 0
+  },
+  {
+    "class": 6,
+    "name": "엄정인",
+    "roles": [
+      {
+        "role": "음향",
+        "history": [
+          "123th",
+          "124th",
+          "125th",
+          "126th",
+          "127th"
+        ]
+      }
+    ],
+    "totalRoles": 5,
+    "totalLeaderRoles": 0
+  },
+  {
+    "class": 6,
+    "name": "류가연",
+    "roles": [
+      {
+        "role": "음향",
+        "history": [
+          "123th",
+          "124th",
+          "125th",
+          "126th",
+          "127th"
+        ]
+      }
+    ],
+    "totalRoles": 5,
+    "totalLeaderRoles": 0
+  },
+  {
+    "class": 6,
+    "name": "박단",
+    "roles": [
+      {
+        "role": "음향",
+        "history": [
+          "123th",
+          "124th",
+          "125th",
+          "126th",
+          "127th"
+        ]
+      }
+    ],
+    "totalRoles": 5,
+    "totalLeaderRoles": 0
+  },
+  {
+    "class": 6,
+    "name": "윤영경",
+    "roles": [
+      {
+        "role": "음향",
+        "history": [
+          "123th",
+          "124th",
+          "125th",
+          "126th",
+          "127th"
+        ]
+      }
+    ],
+    "totalRoles": 5,
+    "totalLeaderRoles": 0
+  },
+  {
+    "class": 6,
+    "name": "안시은",
+    "roles": [
+      {
+        "role": "음향",
+        "history": [
+          "123th",
+          "124th",
+          "125th",
+          "126th",
+          "127th"
+        ]
+      }
+    ],
+    "totalRoles": 5,
+    "totalLeaderRoles": 0
+  },
+  {
+    "class": 6,
+    "name": "김결",
+    "roles": [
+      {
+        "role": "음향",
+        "history": [
+          "123th",
+          "124th",
+          "125th",
+          "126th",
+          "127th"
+        ]
+      }
+    ],
+    "totalRoles": 5,
+    "totalLeaderRoles": 0
+  },
+  {
+    "class": 6,
+    "name": "심원균",
+    "roles": [
+      {
+        "role": "음향",
+        "history": [
+          "123th",
+          "124th",
+          "125th",
+          "126th",
+          "127th"
+        ]
+      }
+    ],
+    "totalRoles": 5,
+    "totalLeaderRoles": 0
+  },
+  {
+    "class": 6,
+    "name": "구하연",
+    "roles": [
+      {
+        "role": "의소분",
+        "history": [
+          "123th",
+          "124th",
+          "125th",
+          "126th",
+          "127th"
+        ]
+      }
+    ],
+    "totalRoles": 5,
+    "totalLeaderRoles": 0
+  },
+  {
+    "class": 6,
+    "name": "박가영",
+    "roles": [
+      {
+        "role": "의소분",
+        "history": [
+          "123th",
+          "124th",
+          "125th",
+          "126th",
+          "127th"
+        ]
+      }
+    ],
+    "totalRoles": 5,
+    "totalLeaderRoles": 0
+  },
+  {
+    "class": 6,
+    "name": "이지수",
+    "roles": [
+      {
+        "role": "의소분",
+        "history": [
+          "123th",
+          "124th",
+          "125th",
+          "126th",
+          "127th"
+        ]
+      }
+    ],
+    "totalRoles": 5,
+    "totalLeaderRoles": 0
+  },
+  {
+    "class": 6,
+    "name": "한기주",
+    "roles": [
+      {
+        "role": "의소분",
+        "history": [
+          "123th",
+          "124th",
+          "125th",
+          "126th",
+          "127th"
+        ]
+      }
+    ],
+    "totalRoles": 5,
+    "totalLeaderRoles": 0
+  },
+  {
+    "class": 6,
+    "name": "김지민",
+    "roles": [
+      {
+        "role": "의소분",
+        "history": [
+          "123th",
+          "124th",
+          "125th",
+          "126th",
+          "127th"
+        ]
+      }
+    ],
+    "totalRoles": 5,
+    "totalLeaderRoles": 0
+  },
+  {
+    "class": 6,
+    "name": "손현빈",
+    "roles": [
+      {
+        "role": "캐스트",
+        "history": [
+          "123th",
+          "124th",
+          "125th",
+          "126th",
+          "127th"
+        ]
+      }
+    ],
+    "totalRoles": 5,
+    "totalLeaderRoles": 0
+  },
+  {
+    "class": 6,
+    "name": "정윤주",
+    "roles": [
+      {
+        "role": "캐스트",
+        "history": [
+          "123th",
+          "124th",
+          "125th",
+          "126th",
+          "127th"
+        ]
+      }
+    ],
+    "totalRoles": 5,
+    "totalLeaderRoles": 0
+  },
+  {
+    "class": 6,
+    "name": "송하연",
+    "roles": [
+      {
+        "role": "캐스트",
+        "history": [
+          "123th",
+          "124th",
+          "125th",
+          "126th",
+          "127th"
+        ]
+      }
+    ],
+    "totalRoles": 5,
+    "totalLeaderRoles": 0
+  },
+  {
+    "class": 6,
+    "name": "이재홍",
+    "roles": [
+      {
+        "role": "캐스트",
+        "history": [
+          "123th",
+          "124th",
+          "125th",
+          "126th",
+          "127th"
+        ]
+      }
+    ],
+    "totalRoles": 5,
+    "totalLeaderRoles": 0
+  },
+  {
+    "class": 6,
+    "name": "김미희",
+    "roles": [
+      {
+        "role": "캐스트",
+        "history": [
+          "123th",
+          "124th",
+          "125th",
+          "126th",
+          "127th"
+        ]
+      }
+    ],
+    "totalRoles": 5,
+    "totalLeaderRoles": 0
+  },
+  {
+    "class": 6,
+    "name": "김현승",
+    "roles": [
+      {
+        "role": "캐스트",
+        "history": [
+          "123th",
+          "124th",
+          "125th",
+          "126th",
+          "127th"
+        ]
+      }
+    ],
+    "totalRoles": 5,
+    "totalLeaderRoles": 0
+  },
+  {
+    "class": 6,
+    "name": "김명후",
+    "roles": [
+      {
+        "role": "캐스트",
+        "history": [
+          "123th",
+          "124th",
+          "125th",
+          "126th",
+          "127th"
+        ]
+      }
+    ],
+    "totalRoles": 5,
+    "totalLeaderRoles": 0
+  },
+  {
+    "class": 63,
+    "name": "장선웅",
+    "roles": [
+      {
+        "role": "연출",
+        "history": [
+          "124th"
+        ]
+      }
+    ],
+    "totalRoles": 1,
+    "totalLeaderRoles": 0
+  },
+  {
+    "class": 63,
+    "name": "장연희",
+    "roles": [
+      {
+        "role": "연출",
+        "history": [
+          "124th",
+          "127th"
+        ]
+      },
+      {
+        "role": "조연출",
+        "history": [
+          "125th"
+        ]
+      }
+    ],
+    "totalRoles": 3,
+    "totalLeaderRoles": 1
+  },
+  {
+    "class": 63,
+    "name": "이재욱",
+    "roles": [
+      {
+        "role": "기획팀장",
+        "history": [
+          "124th"
+        ]
+      }
+    ],
+    "totalRoles": 1,
+    "totalLeaderRoles": 1
+  },
+  {
+    "class": 64,
+    "name": "김현승",
+    "roles": [
+      {
+        "role": "조연출",
+        "history": [
+          "126th"
+        ]
+      }
+    ],
+    "totalRoles": 1,
+    "totalLeaderRoles": 0
+  },
+  {
+    "class": 64,
+    "name": "송하연",
+    "roles": [
+      {
+        "role": "조연출",
+        "history": [
+          "127th"
+        ]
+      }
+    ],
+    "totalRoles": 1,
+    "totalLeaderRoles": 0
+  }
+]
