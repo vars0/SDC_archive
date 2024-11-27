@@ -1,21 +1,24 @@
-import path from 'path';
 import fs from 'fs';
-import JSONEditor from '../components/JSONEditor';
+import path from 'path';
+import NavLink from '../components/NavLink';
 
 export default async function EditPage() {
-    // JSON 파일 목록 가져오기
     const jsonDirectory = path.join(process.cwd(), 'info');
     const fileNames = await fs.promises.readdir(jsonDirectory);
     const jsonFiles = fileNames.filter((file) => file.endsWith('.json'));
 
     return (
         <div>
-            <h1>Edit JSON Files</h1>
-            <div>
+            <h1>JSON 파일 목록</h1>
+            <ul>
                 {jsonFiles.map((fileName) => (
-                    <JSONEditor key={fileName} fileName={fileName} />
+                    <li key={fileName}>
+                        <NavLink href={`/edit/${fileName.replace('.json', '')}`}>
+                            {fileName.replace('.json', '')}
+                        </NavLink>
+                    </li>
                 ))}
-            </div>
+            </ul>
         </div>
     );
 }
