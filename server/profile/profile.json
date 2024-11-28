@@ -419,7 +419,7 @@
     "totalLeaderRoles": 0
   },
   {
-    "class": 6,
+    "class": 63,
     "name": "이재욱",
     "roles": [
       {
@@ -431,10 +431,16 @@
           "126th",
           "127th"
         ]
+      },
+      {
+        "role": "기획팀장",
+        "history": [
+          "124th"
+        ]
       }
     ],
-    "totalRoles": 5,
-    "totalLeaderRoles": 0
+    "totalRoles": 6,
+    "totalLeaderRoles": 1
   },
   {
     "class": 6,
@@ -901,20 +907,6 @@
       }
     ],
     "totalRoles": 3,
-    "totalLeaderRoles": 1
-  },
-  {
-    "class": 63,
-    "name": "이재욱",
-    "roles": [
-      {
-        "role": "기획팀장",
-        "history": [
-          "124th"
-        ]
-      }
-    ],
-    "totalRoles": 1,
     "totalLeaderRoles": 1
   },
   {
