@@ -1,216 +1,216 @@
 [
     {
         "title": "친절한식구들",
-        "subtitle": "2023 제126회 겨울대공연",
-        "date": "0000.00.00~0000.00.00",
-        "times": 7,
-        "place": "피카소 소극장 (서울 종로구 대학로 11길 38-11)",
+        "subtitle": "2024 제126회 겨울대공연",
+        "date": "2024.03.08~2024.03.10",
+        "times": 5,
+        "place": "소극장 무극",
         "poster": "https://127th.skkudramaclub.kr/",
         "연출": {
             "class": 61,
+            "studentNo": 20,
             "name": "정준원",
             "isleader": true
         },
         "조연출": {
             "class": 64,
+            "studentNo": 23,
             "name": "김현승"
         },
         "기획팀장": {
-            "class": 62,
-            "name": "이채연",
+            "class": 64,
+            "studentNo": 20,
+            "name": "손현빈",
             "isleader": true
         },
         "기획": [
             {
-                "class": 61,
-                "name": "김동건"
-            },
-            {
-                "class": 63,
-                "name": "이유진"
-            },
-            {
                 "class": 64,
+                "studentNo": 23,
                 "name": "금유빈"
             },
             {
-                "class": 64,
-                "name": "강성휘"
+                "class": 63,
+                "studentNo": 23,
+                "name": "김준서"
             },
             {
                 "class": 64,
-                "name": "전유진"
+                "studentNo": 23,
+                "name": "박인수"
             },
             {
                 "class": 64,
-                "name": "강민재"
-            },
-            {
-                "class": 64,
-                "name": "홍주안"
+                "studentNo": 23,
+                "name": "송하연"
             }
         ],
         "무대": [
             {
-                "class": 6,
-                "name": "이현진",
+                "class": 64,
+                "studentNo": 22,
+                "name": "조윤서",
                 "isleader": true
             },
             {
-                "class": 6,
-                "name": "김수영"
+                "class": 63,
+                "studentNo": 22,
+                "name": "김규리"
             },
             {
-                "class": 6,
-                "name": "김태웅"
+                "class": 64,
+                "studentNo": 23,
+                "name": "김명후"
             },
             {
-                "class": 6,
-                "name": "이예원"
+                "class": 64,
+                "studentNo": 23,
+                "name": "김유진"
             },
             {
-                "class": 6,
-                "name": "백제준"
+                "class": 63,
+                "studentNo": 22,
+                "name": "류가연"
             },
             {
-                "class": 6,
-                "name": "조윤서"
+                "class": 63,
+                "studentNo": 22,
+                "name": "심원균"
             },
             {
-                "class": 6,
-                "name": "탁현서"
+                "class": 63,
+                "studentNo": 18,
+                "name": "엄태웅"
             },
             {
-                "class": 6,
-                "name": "이주연"
+                "class": 63,
+                "studentNo": 22,
+                "name": "이재홍"
             },
             {
-                "class": 6,
-                "name": "임태희"
+                "class": 64,
+                "studentNo": 23,
+                "name": "임성윤"
+            },
+            {
+                "class": 63,
+                "studentNo": 22,
+                "name": "장선웅"
             }
         ],
         "조명": [
             {
-                "class": 6,
-                "name": "천유진",
+                "class": 63,
+                "studentNo": 22,
+                "name": "이재욱",
                 "isleader": true
             },
             {
-                "class": 6,
-                "name": "한광현"
+                "class": 60,
+                "studentNo": 20,
+                "name": "김동건"
             },
             {
-                "class": 6,
-                "name": "유선아"
+                "class": 64,
+                "studentNo": 21,
+                "name": "김미희"
             },
             {
-                "class": 63,
-                "name": "이재욱"
-            },
-            {
-                "class": 6,
-                "name": "조한상"
-            },
-            {
-                "class": 6,
+                "class": 64,
+                "studentNo": 23,
                 "name": "윤태우"
             },
             {
-                "class": 6,
-                "name": "강태영"
+                "class": 63,
+                "studentNo": 22,
+                "name": "이지수"
             },
             {
-                "class": 6,
-                "name": "김효성"
+                "class": 64,
+                "studentNo": 23,
+                "name": "최아야"
+            },
+            {
+                "class": 64,
+                "studentNo": 20,
+                "name": "한광현"
             }
         ],
         "음향": [
             {
-                "class": 6,
-                "name": "장선웅",
+                "class": 63,
+                "studentNo": 22,
+                "name": "장연희",
                 "isleader": true
             },
             {
-                "class": 6,
-                "name": "엄정인"
+                "class": 64,
+                "studentNo": 23,
+                "name": "김유경"
             },
             {
-                "class": 6,
-                "name": "류가연"
+                "class": 62,
+                "studentNo": 21,
+                "name": "이채연"
             },
             {
-                "class": 6,
-                "name": "박단"
-            },
-            {
-                "class": 6,
-                "name": "윤영경"
-            },
-            {
-                "class": 6,
-                "name": "안시은"
-            },
-            {
-                "class": 6,
-                "name": "김결"
-            },
-            {
-                "class": 6,
-                "name": "심원균"
+                "class": 64,
+                "studentNo": 23,
+                "name": "한기주"
             }
         ],
         "의소분": [
             {
-                "class": 6,
-                "name": "구하연",
+                "class": 64,
+                "studentNo": 23,
+                "name": "박가영",
                 "isleader": true
             },
             {
                 "class": 6,
-                "name": "박가영"
+                "studentNo": 22,
+                "name": "김예니"
             },
             {
-                "class": 6,
-                "name": "이지수"
+                "class": 64,
+                "studentNo": 23,
+                "name": "이성은"
             },
             {
-                "class": 6,
-                "name": "한기주"
+                "class": 64,
+                "studentNo": 23,
+                "name": "조한상"
             },
             {
-                "class": 6,
-                "name": "김지민"
+                "class": 64,
+                "studentNo": 23,
+                "name": "한건"
             }
         ],
         "캐스트": [
             {
-                "class": 6,
-                "name": "손현빈",
-                "isleader": true
+                "role": "유석",
+                "class": 64,
+                "studentNo": 20,
+                "name": "강준모"
             },
             {
-                "class": 6,
-                "name": "정윤주"
+                "role": "정원",
+                "class": 64,
+                "studentNo": 23,
+                "name": "김효성"
             },
             {
-                "class": 6,
-                "name": "송하연"
+                "role": "해민",
+                "class": 63,
+                "studentNo": 22,
+                "name": "이하윤"
             },
             {
-                "class": 6,
-                "name": "이재홍"
-            },
-            {
-                "class": 6,
-                "name": "김미희"
-            },
-            {
-                "class": 6,
-                "name": "김현승"
-            },
-            {
-                "class": 6,
-                "name": "김명후"
+                "role": "미숙",
+                "class": 64,
+                "studentNo": 21,
+                "name": "이혜원"
             }
         ]
     }
