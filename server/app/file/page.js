@@ -7,33 +7,38 @@ export async function generateMetadata() {
   };
 }
 
-export default async function FileListPage() {
-  const path = require("path");
+const readDirectory = (directoryPath) => {
+  const items = fs.readdirSync(directoryPath);
+  const result = items.map((item) => {
+    const itemPath = path.join(directoryPath, item);
+    const stats = fs.statSync(itemPath);
 
+    if (stats.isDirectory()) {
+      return {
+        name: item,
+        isDirectory: true,
+        children: readDirectory(itemPath), // 재귀적으로 폴더 내부 탐색
+      };
+    }
+
+    return {
+      name: item,
+      isDirectory: false,
+    };
+  });
+  return result;
+};
+
+export default async function FileListPage() {
   // 현재 작업 디렉터리 (SDC_archive/server/)에서 상위 디렉터리로 이동한 후 'docs' 폴더에 접근
   const directoryPath = path.join(process.cwd(), "..", "docs");
-  const outputPath = path.join(process.cwd(), "..",  "route.json"); // 결과 파일 경로
+  const outputPath = path.join(process.cwd(), "..", "route.json");
 
-  // 폴더 내의 파일 목록 읽기
-  const files = fs.readdirSync(directoryPath);
+  // 폴더 내의 파일 목록 읽기 및 구조 생성
+  const fileStructure = readDirectory(directoryPath);
 
-  // 파일 정보를 JSON 형식으로 변환
-  const fileNames = files.map((file) => ({
-    name: file,
-    isDirectory: fs.statSync(path.join(directoryPath, file)).isDirectory(),
-  }));
-  console.log(fileNames);
+  // 결과를 JSON 파일로 저장
+  fs.writeFileSync(outputPath, JSON.stringify(fileStructure, null, 2));
 
-  return (
-    <div>
-      <h1>Files in Folder</h1>
-      <ul>
-        {fileNames.map((file) => (
-          <li key={file.name}>
-            {file.name} {file.isDirectory ? "(Folder)" : "(File)"}
-          </li>
-        ))}
-      </ul>
-    </div>
-  );
+  return null; // 화면에 표시하는 작업은 필요 없으므로 null 반환
 }
