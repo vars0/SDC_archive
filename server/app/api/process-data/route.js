@@ -4,8 +4,9 @@ import path from "path";
 export async function POST(request) {
   try {
     // 디렉터리와 파일 경로 정의
-    const inputDir = path.join(process.cwd(), "info"); // 입력 JSON 파일 디렉토리
-    const outputPath = path.join(process.cwd(), "profile", "profile.json"); // 결과 파일 경로
+    const path = require("path");
+    const inputDir = path.join(process.cwd(), "..", "info"); // 입력 JSON 파일 디렉토리
+    const outputPath = path.join(process.cwd(), "..",  "profile.json"); // 결과 파일 경로
 
     // 입력 파일 읽기
     const files = await fs.readdir(inputDir);
