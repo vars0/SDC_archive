@@ -66,6 +66,10 @@
         "isDirectory": false
       },
       {
+        "name": "115회 대공연 연출 트레이닝자료.pdf",
+        "isDirectory": false
+      },
+      {
         "name": "115회 대공연 음향 인수인계서.hwp",
         "isDirectory": false
       },
@@ -145,10 +149,6 @@
       },
       {
         "name": "115회 대공연 합평회.docx",
-        "isDirectory": false
-      },
-      {
-        "name": "115회대공연트레이닝자료.pdf",
         "isDirectory": false
       }
     ]
@@ -268,62 +268,13 @@
       {
         "name": "123회 대공연 조명 인수인계서.pdf",
         "isDirectory": false
-      },
-      {
-        "name": "costume.pdf",
-        "isDirectory": false
-      },
-      {
-        "name": "direct.pdf",
-        "isDirectory": false
-      },
-      {
-        "name": "light.pdf",
-        "isDirectory": false
-      },
-      {
-        "name": "plan.pdf",
-        "isDirectory": false
-      },
-      {
-        "name": "sound.pdf",
-        "isDirectory": false
-      },
-      {
-        "name": "stage.pdf",
-        "isDirectory": false
       }
     ]
   },
   {
     "name": "124th",
     "isDirectory": true,
-    "children": [
-      {
-        "name": "costume.pdf",
-        "isDirectory": false
-      },
-      {
-        "name": "direct.pdf",
-        "isDirectory": false
-      },
-      {
-        "name": "light.pdf",
-        "isDirectory": false
-      },
-      {
-        "name": "plan.pdf",
-        "isDirectory": false
-      },
-      {
-        "name": "sound.pdf",
-        "isDirectory": false
-      },
-      {
-        "name": "stage.pdf",
-        "isDirectory": false
-      }
-    ]
+    "children": []
   },
   {
     "name": "125th",
@@ -355,30 +306,6 @@
       },
       {
         "name": "125회 대공연 조연출 일지.docx",
-        "isDirectory": false
-      },
-      {
-        "name": "costume.pdf",
-        "isDirectory": false
-      },
-      {
-        "name": "direct.pdf",
-        "isDirectory": false
-      },
-      {
-        "name": "light.pdf",
-        "isDirectory": false
-      },
-      {
-        "name": "plan.pdf",
-        "isDirectory": false
-      },
-      {
-        "name": "sound.pdf",
-        "isDirectory": false
-      },
-      {
-        "name": "stage.pdf",
         "isDirectory": false
       }
     ]
@@ -434,62 +361,13 @@
       {
         "name": "126회 대공연 합평회.pdf",
         "isDirectory": false
-      },
-      {
-        "name": "costume.pdf",
-        "isDirectory": false
-      },
-      {
-        "name": "direct.pdf",
-        "isDirectory": false
-      },
-      {
-        "name": "light.pdf",
-        "isDirectory": false
-      },
-      {
-        "name": "plan.pdf",
-        "isDirectory": false
-      },
-      {
-        "name": "sound.pdf",
-        "isDirectory": false
-      },
-      {
-        "name": "stage.pdf",
-        "isDirectory": false
       }
     ]
   },
   {
     "name": "127th",
     "isDirectory": true,
-    "children": [
-      {
-        "name": "costume.pdf",
-        "isDirectory": false
-      },
-      {
-        "name": "direct.pdf",
-        "isDirectory": false
-      },
-      {
-        "name": "light.pdf",
-        "isDirectory": false
-      },
-      {
-        "name": "plan.pdf",
-        "isDirectory": false
-      },
-      {
-        "name": "sound.pdf",
-        "isDirectory": false
-      },
-      {
-        "name": "stage.pdf",
-        "isDirectory": false
-      }
-    ]
+    "children": []
   },
   {
     "name": "W49thHssc",
@@ -732,7 +610,7 @@
     ]
   },
   {
-    "name": "role.txt",
+    "name": "rule.txt",
     "isDirectory": false
   }
 ]
