@@ -10,6 +10,8 @@ export async function POST(request) {
     const files = await fs.readdir(inputDir);
     const jsonFiles = files.filter((file) => file.endsWith(".json"));
 
+    const ignoreList = ["연출", "무대감독", "기획팀장"];
+
     let peopleData = {};
 
     for (const file of jsonFiles) {
@@ -38,15 +40,21 @@ export async function POST(request) {
               // 히스토리 추가
               if (!peopleData[key].history[historyTag]) {
                 peopleData[key].history[historyTag] = [];
-              }
-              peopleData[key].history[historyTag].push(role);
 
-              // 역할 수 증가
-              peopleData[key].totalRoles += 1;
+                // 역할 수 증가
+                peopleData[key].totalRoles += 1;
+              }
 
               // 리더 역할 수 증가
               if (person.isleader) {
+                if (ignoreList.includes(role)) {
+                  peopleData[key].history[historyTag].push(role);
+                } else {
+                  peopleData[key].history[historyTag].push(role + "팀장");
+                }
                 peopleData[key].totalLeaderRoles += 1;
+              } else {
+                peopleData[key].history[historyTag].push(role);
               }
             });
           } else if (typeof value === "object") {
@@ -64,15 +72,21 @@ export async function POST(request) {
             // 히스토리 추가
             if (!peopleData[key].history[historyTag]) {
               peopleData[key].history[historyTag] = [];
-            }
-            peopleData[key].history[historyTag].push(role);
 
-            // 역할 수 증가
-            peopleData[key].totalRoles += 1;
+              // 역할 수 증가
+              peopleData[key].totalRoles += 1;
+            }
 
             // 리더 역할 수 증가
             if (value.isleader) {
+              if (ignoreList.includes(role)) {
+                peopleData[key].history[historyTag].push(role); // 팀장 추가하지 않고 role만 추가
+              } else {
+                peopleData[key].history[historyTag].push(role + "팀장"); // role에 팀장 추가
+              }
               peopleData[key].totalLeaderRoles += 1;
+            } else {
+              peopleData[key].history[historyTag].push(role);
             }
           }
         }
