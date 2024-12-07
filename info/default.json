@@ -1,47 +1,47 @@
 [
     {
-        "title": "",
-        "shortTitle": "",
-        "subtitle": "",
+        "title": " ",
+        "shortTitle": " ",
+        "subtitle": " ",
         "연출": {
-            "name": "",
+            "name": " ",
             "isleader": true
         },
         "조연출": [
             {
-                "name": ""
+                "name": " "
             }
         ],
         "기획팀장": {
-            "name": "",
+            "name": " ",
             "isleader": true
         },
         "기획": [
             {
-                "name": ""
+                "name": " "
             }
         ],
         "무대": [
             {
-                "name": "",
+                "name": " ",
                 "isleader": true
             }
         ],
         "조명": [
             {
-                "name": "",
+                "name": " ",
                 "isleader": true
             }
         ],
         "음향": [
             {
-                "name": "",
+                "name": " ",
                 "isleader": true
             }
         ],
         "의소분": [
             {
-                "name": "",
+                "name": " ",
                 "isleader": true
             }
         ]
