@@ -1426,5 +1426,22 @@
     },
     "totalRoles": 1,
     "totalLeaderRoles": 0
+  },
+  {
+    "name": " ",
+    "history": {
+      "default": [
+        "연출",
+        "조연출",
+        "기획팀장",
+        "기획",
+        "무대팀장",
+        "조명팀장",
+        "음향팀장",
+        "의소분팀장"
+      ]
+    },
+    "totalRoles": 1,
+    "totalLeaderRoles": 6
   }
 ]
