@@ -1,0 +1,49 @@
+[
+    {
+        "title": "",
+        "shortTitle": "",
+        "subtitle": "",
+        "연출": {
+            "name": "",
+            "isleader": true
+        },
+        "조연출": [
+            {
+                "name": ""
+            }
+        ],
+        "기획팀장": {
+            "name": "",
+            "isleader": true
+        },
+        "기획": [
+            {
+                "name": ""
+            }
+        ],
+        "무대": [
+            {
+                "name": "",
+                "isleader": true
+            }
+        ],
+        "조명": [
+            {
+                "name": "",
+                "isleader": true
+            }
+        ],
+        "음향": [
+            {
+                "name": "",
+                "isleader": true
+            }
+        ],
+        "의소분": [
+            {
+                "name": "",
+                "isleader": true
+            }
+        ]
+    }
+]
