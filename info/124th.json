@@ -1,142 +1,140 @@
-[
+{
+  "title": "분장실",
+  "shortTitle": "분장실",
+  "subtitle": "2023 제124회 겨울대공연",
+  "date": "2023.02.25~2023.02.26",
+  "times": 4,
+  "place": "뜻밖의극장 (서울 성북구 동소문로20나길 27 지하 1층)",
+  "poster": "https://127th.skkudramaclub.kr/",
+  "연출": [
     {
-        "title": "분장실",
-        "shortTitle": "분장실",
-        "subtitle": "2023 제124회 겨울대공연",
-        "date": "2023.02.25~2023.02.26",
-        "times": 4,
-        "place": "뜻밖의극장 (서울 성북구 동소문로20나길 27 지하 1층)",
-        "poster": "https://127th.skkudramaclub.kr/",
-        "연출": [
-            {
-                "class": 63,
-                "studentNo": 22,
-                "name": "장선웅",
-                "isleader": true
-            },
-            {
-                "class": 63,
-                "studentNo": 22,
-                "name": "장연희",
-                "isleader": true
-            }
-        ],
-        "기획팀장": {
-            "class": 63,
-            "studentNo": 22,
-            "name": "이재욱",
-            "isleader": true
-        },
-        "무대감독": {
-            "class": 61,
-            "studentNo": 20,
-            "name": "정준원",
-            "isleader": true
-        },
-        "기획": [
-            {
-                "class": 63,
-                "studentNo": 17,
-                "name": "문지원"
-            },
-            {
-                "class": 6,
-                "studentNo": 20,
-                "name": "신예림"
-            },
-            {
-                "class": 63,
-                "studentNo": 22,
-                "name": "심원균"
-            }
-        ],
-        "무대": [
-            {
-                "class": 63,
-                "studentNo": 21,
-                "name": "이채훈",
-                "isleader": true
-            },
-            {
-                "class": 6,
-                "studentNo": 19,
-                "name": "김태웅"
-            },
-            {
-                "class": 62,
-                "studentNo": 21,
-                "name": "변서윤"
-            },
-            {
-                "class": 63,
-                "studentNo": 22,
-                "name": "이재홍"
-            }
-        ],
-        "조명": [
-            {
-                "class": 63,
-                "studentNo": 22,
-                "name": "류가연",
-                "isleader": true
-            },
-            {
-                "class": 63,
-                "studentNo": 22,
-                "name": "이재욱"
-            }
-        ],
-        "음향": [
-            {
-                "class": 63,
-                "studentNo": 22,
-                "name": "김서현",
-                "isleader": true
-            },
-            {
-                "class": 63,
-                "studentNo": 21,
-                "name": "이채훈"
-            }
-        ],
-        "의소분": [
-            {
-                "class": 63,
-                "studentNo": 22,
-                "name": "이하윤",
-                "isleader": true
-            },
-            {
-                "class": 63,
-                "studentNo": 22,
-                "name": "정하은"
-            }
-        ],
-        "캐스트": [
-            {
-                "role": "여배우 A",
-                "class": 6,
-                "studentNo": 20,
-                "name": "이예원"
-            },
-            {
-                "role": "여배우 A",
-                "class": 63,
-                "studentNo": 20,
-                "name": "장추이"
-            },
-            {
-                "role": "여배우 A",
-                "class": 63,
-                "studentNo": 22,
-                "name": "정윤주"
-            },
-            {
-                "role": "여배우 A",
-                "class": 63,
-                "studentNo": 22,
-                "name": "이지수"
-            }
-        ]
+      "class": 63,
+      "studentNo": 22,
+      "name": "장선웅",
+      "isleader": true
+    },
+    {
+      "class": 63,
+      "studentNo": 22,
+      "name": "장연희",
+      "isleader": true
     }
-]
+  ],
+  "기획팀장": {
+    "class": 63,
+    "studentNo": 22,
+    "name": "이재욱",
+    "isleader": true
+  },
+  "무대감독": {
+    "class": 61,
+    "studentNo": 20,
+    "name": "정준원",
+    "isleader": true
+  },
+  "기획": [
+    {
+      "class": 63,
+      "studentNo": 17,
+      "name": "문지원"
+    },
+    {
+      "class": 6,
+      "studentNo": 20,
+      "name": "신예림"
+    },
+    {
+      "class": 63,
+      "studentNo": 22,
+      "name": "심원균"
+    }
+  ],
+  "무대": [
+    {
+      "class": 63,
+      "studentNo": 21,
+      "name": "이채훈",
+      "isleader": true
+    },
+    {
+      "class": 6,
+      "studentNo": 19,
+      "name": "김태웅"
+    },
+    {
+      "class": 62,
+      "studentNo": 21,
+      "name": "변서윤"
+    },
+    {
+      "class": 63,
+      "studentNo": 22,
+      "name": "이재홍"
+    }
+  ],
+  "조명": [
+    {
+      "class": 63,
+      "studentNo": 22,
+      "name": "류가연",
+      "isleader": true
+    },
+    {
+      "class": 63,
+      "studentNo": 22,
+      "name": "이재욱"
+    }
+  ],
+  "음향": [
+    {
+      "class": 63,
+      "studentNo": 22,
+      "name": "김서현",
+      "isleader": true
+    },
+    {
+      "class": 63,
+      "studentNo": 21,
+      "name": "이채훈"
+    }
+  ],
+  "의소분": [
+    {
+      "class": 63,
+      "studentNo": 22,
+      "name": "이하윤",
+      "isleader": true
+    },
+    {
+      "class": 63,
+      "studentNo": 22,
+      "name": "정하은"
+    }
+  ],
+  "캐스트": [
+    {
+      "role": "여배우 A",
+      "class": 6,
+      "studentNo": 20,
+      "name": "이예원"
+    },
+    {
+      "role": "여배우 A",
+      "class": 63,
+      "studentNo": 20,
+      "name": "장추이"
+    },
+    {
+      "role": "여배우 A",
+      "class": 63,
+      "studentNo": 22,
+      "name": "정윤주"
+    },
+    {
+      "role": "여배우 A",
+      "class": 63,
+      "studentNo": 22,
+      "name": "이지수"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+/* components/CrewEditor.module.css */
+.crewEditor {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+
+.crewEditor h2 {
+  margin-bottom: 16px;
+}
+
+.crewEditor ul {
+  margin-bottom: 16px;
+}
+
+.crewEditor li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.crewEditor input[type="text"] {
+  width: 200px;
+  margin-right: 10px;
+}
+
+.crewEditor button {
+  margin-left: 10px;
+}
+
+.crewEditor .addButton {
+  margin-bottom: 20px;
+  background-color: #f39c12;
+}
+
+.crewEditor .addButton:hover {
+  background-color: #e67e22;
+}
