@@ -8,7 +8,7 @@ const CrewEditor = ({ type, data, onUpdate }) => {
   const handleAdd = () => {
     const newCrew = { class: "", studentNo: "", name: "" };
     const addedCrew = [...crewData[type],newCrew];
-    setCrewData({...crewData, [type]:addedCrew});
+    setCrewData({...crewData, [type]:addedCrew}); 
   };
 
   const handleDelete = (section, index) => {
