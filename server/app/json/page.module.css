@@ -1,22 +1,4 @@
-/* styles/page.module.css */
-.container {
-  width: 80%;
-  margin: 0 auto;
-  padding: 20px;
-  background-color: #fafafa;
-}
-
-.button {
-  padding: 8px 16px;
-  margin: 8px;
-  border: none;
-  background-color: #4caf50;
-  color: white;
-  font-size: 16px;
-  cursor: pointer;
-  border-radius: 4px;
-}
-
-.button:hover {
-  background-color: #45a049;
+.linkContainer{
+    display: flex;
+    flex-direction: column;
 }

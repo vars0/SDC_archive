@@ -19,6 +19,7 @@ export default function RootLayout({
           <Link href={"/"}>profile</Link>
           <Link href={"/file"}>route</Link>
           <Link href={"/json"}>json</Link>
+          <Link href={"/uploadFile"}>upload</Link>
         </header>
         <main>{children}</main>
       </body>
