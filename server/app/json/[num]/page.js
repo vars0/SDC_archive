@@ -6,63 +6,62 @@ import CastEditor from "./CastEditor";
 import CrewEditor from "./CrewEditor";
 import styles from "./page.module.css";
 import { use } from "react";
+import { ref, getDownloadURL } from "firebase/storage";
+import { storage } from "../../../firebaseConfig";
 
 export default function Home(props) {
   const para = use(props.params);
   const num = para.num;
-  const [Data, setData] = useState(null);
+
+  const [data, setData] = useState(null);
+  const [error, setError] = useState(null);
 
   useEffect(() => {
-    // Data API에서 데이터를 가져옵니다.
-    fetch("/api/Data")
-      .then((response) => response.json())
-      .then((data) => setData(data))
-      .catch((err) => console.error(err));
-  }, []);
+    const fetchJsonData = async () => {
+      try {
+        const response = await fetch("/api/fileLoad?filePath=uploads/123th.json");
+        if (!response.ok) {
+          throw new Error("데이터 로드 실패");
+        }
+        setData(await response.json());
+        console.log("JSON 데이터:", data);
+      } catch (error) {
+        console.error("오류 발생:", error);
+      }
+    };
 
-  const saveData = async () => {
-    try {
-      await fetch("/api/Data", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify(Data),
-      });
-      alert("저장 완료!");
-    } catch (error) {
-      console.error("저장 실패:", error);
-      alert("저장 실패");
-    }
-  };
+    fetchJsonData();
+  }, []);
+  
+  
 
   const handleUpdate = (updatedData) => {
     setData(updatedData);
   };
 
   useEffect(() => {
-    console.log("Data change", Data);
-  }, [Data]);
+    console.log("Data change", data);
+  }, [data]);
 
-  if (!Data) return <div>Loading...</div>;
+  if (!data) return <div>Loading...</div>;
 
   // console.log(Data);
   return (
     <div className={styles.container}>
-      <h1>{Data.title}</h1>
-      <button className={styles.button} onClick={saveData}>
+      <h1>{data.title}</h1>
+      {/* <button className={styles.button} onClick={saveData}>
         Save
-      </button>
-      <InfoEditor data={Data} onUpdate={handleUpdate} />
-      <CrewEditor type="연출" data={Data} onUpdate={handleUpdate} />
-      <CrewEditor type="조연출" data={Data} onUpdate={handleUpdate} />
-      <CrewEditor type="기획팀장" data={Data} onUpdate={handleUpdate} />
-      <CrewEditor type="기획" data={Data} onUpdate={handleUpdate} />
-      <CrewEditor type="무대" data={Data} onUpdate={handleUpdate} />
-      <CrewEditor type="조명" data={Data} onUpdate={handleUpdate} />
-      <CrewEditor type="음향" data={Data} onUpdate={handleUpdate} />
-      <CrewEditor type="의소분" data={Data} onUpdate={handleUpdate} />
-      <CastEditor data={Data.캐스트} rawData={Data} onUpdate={handleUpdate} />
+      </button> */}
+      <InfoEditor data={data} onUpdate={handleUpdate} />
+      <CrewEditor type="연출" data={data} onUpdate={handleUpdate} />
+      <CrewEditor type="조연출" data={data} onUpdate={handleUpdate} />
+      <CrewEditor type="기획팀장" data={data} onUpdate={handleUpdate} />
+      <CrewEditor type="기획" data={data} onUpdate={handleUpdate} />
+      <CrewEditor type="무대" data={data} onUpdate={handleUpdate} />
+      <CrewEditor type="조명" data={data} onUpdate={handleUpdate} />
+      <CrewEditor type="음향" data={data} onUpdate={handleUpdate} />
+      <CrewEditor type="의소분" data={data} onUpdate={handleUpdate} />
+      <CastEditor data={data.캐스트} rawData={data} onUpdate={handleUpdate} />
     </div>
   );
 }

@@ -6,8 +6,9 @@ const CrewEditor = ({ type, data, onUpdate }) => {
   const [crewData, setCrewData] = useState(data);
 
   const handleAdd = () => {
-    const newCast = { class: "", studentNo: "", name: "" };
-    setCastList([...castList, newCast]);
+    const newCrew = { class: "", studentNo: "", name: "" };
+    const addedCrew = [...crewData[type],newCrew];
+    setCrewData({...crewData, [type]:addedCrew});
   };
 
   const handleDelete = (section, index) => {
