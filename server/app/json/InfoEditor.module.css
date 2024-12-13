@@ -1,0 +1,49 @@
+.infoEditor {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+  }
+  
+  .infoEditor h2 {
+    margin-bottom: 16px;
+    font-size: 20px;
+    font-weight: 600;
+  }
+  
+  .infoEditor .inputGroup {
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .infoEditor .inputGroup label {
+    width: 100px;
+    font-size: 16px;
+    margin-right: 10px;
+    font-weight: 500;
+    color: #555;
+  }
+  
+  .infoEditor input[type="text"],
+  .infoEditor input[type="number"] {
+    width: 250px;
+    width: 100%;
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    transition: border 0.3s ease;
+  }
+  
+  .infoEditor input[type="text"]:focus,
+  .infoEditor input[type="number"]:focus {
+    border-color: #4e73df;
+    outline: none;
+  }
+  
+  .infoEditor input::placeholder {
+    color: #aaa;
+  }
+  

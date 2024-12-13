@@ -26,6 +26,11 @@
   margin-right: 10px;
 }
 
+.crewEditor div {
+  width: 200px;
+  margin-right: 10px;
+}
+
 .castEditor button {
   margin-left: 10px;
 }

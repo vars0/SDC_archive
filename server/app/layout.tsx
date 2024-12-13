@@ -17,8 +17,8 @@ export default function RootLayout({
       <body>
         <header>
           <Link href={"/"}>profile</Link>
-          <div></div>
           <Link href={"/file"}>route</Link>
+          <Link href={"/json"}>json</Link>
         </header>
         <main>{children}</main>
       </body>

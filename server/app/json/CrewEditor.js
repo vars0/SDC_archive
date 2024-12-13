@@ -1,9 +1,14 @@
 // components/CrewEditor.js
-import { useState, useEffect } from 'react';
-import styles from './CrewEditor.module.css';
+import { useState, useEffect } from "react";
+import styles from "./CrewEditor.module.css";
 
-const CrewEditor = ({ data, onUpdate }) => {
+const CrewEditor = ({ type, data, onUpdate }) => {
   const [crewData, setCrewData] = useState(data);
+
+  const handleAdd = () => {
+    const newCast = { class: "", studentNo: "", name: "" };
+    setCastList([...castList, newCast]);
+  };
 
   const handleDelete = (section, index) => {
     const updatedCrew = { ...crewData };
@@ -23,33 +28,48 @@ const CrewEditor = ({ data, onUpdate }) => {
 
   return (
     <div className={styles.crewEditor}>
-      <h2>기획팀 편집</h2>
+      <h2>{type} 편집기</h2>
+      <button className={styles.addButton} onClick={handleAdd}>
+        Add {type}
+      </button>
       <ul>
-        {crewData.기획.map((member, index) => (
+        <li>
+          <div>기수</div>
+          <div>학번</div>
+          <div>이름</div>
+        </li>
+        {crewData[type].map((member, index) => (
           <li key={index}>
             <input
               type="text"
               value={member.class}
-              onChange={(e) => handleChange('기획', index, 'class', e.target.value)}
+              onChange={(e) =>
+                handleChange(type, index, "class", e.target.value)
+              }
               placeholder="class"
             />
             <input
               type="text"
               value={member.studentNo}
-              onChange={(e) => handleChange('기획', index, 'studentNo', e.target.value)}
+              onChange={(e) =>
+                handleChange(type, index, "studentNo", e.target.value)
+              }
               placeholder="studentNo"
             />
             <input
               type="text"
               value={member.name}
-              onChange={(e) => handleChange('기획', index, 'name', e.target.value)}
+              onChange={(e) =>
+                handleChange(type, index, "name", e.target.value)
+              }
               placeholder="Name"
             />
-            <button onClick={() => handleDelete('기획', index)}>Delete</button>
+            <button onClick={() => handleDelete(type, index)}>
+              <img src="/trashcan.svg" alt="Delete" width="24" height="24" />
+            </button>
           </li>
         ))}
       </ul>
-      {/* 기타 팀을 위한 UI 추가 */}
     </div>
   );
 };
