@@ -6,7 +6,7 @@ const CastEditor = ({ data, rawData, onUpdate }) => {
   const [castList, setCastList] = useState(data);
 
   const handleAdd = () => {
-    const newCast = { role: "", class: "", studentNo: "", name: "" };
+    const newCast = {class: "", studentNo: "", name: "", role: ""};
     setCastList([...castList, newCast]);
   };
 
