@@ -6,12 +6,14 @@
   "times": 7,
   "place": "창덕궁 소극장 (서울 종로구 대학로 11길 38-11)",
   "poster": "https://127th.skkudramaclub.kr/",
-  "연출": {
-    "class": 6,
-    "studentNo": 16,
-    "name": "이창기",
-    "isleader": true
-  },
+  "연출": [
+    {
+      "class": 6,
+      "studentNo": 16,
+      "name": "이창기",
+      "isleader": true
+    }
+  ],
   "조연출": [
     {
       "class": 61,
@@ -24,12 +26,14 @@
       "name": "허은세"
     }
   ],
-  "기획팀장": {
-    "class": 62,
-    "studentNo": 21,
-    "name": "이채연",
-    "isleader": true
-  },
+  "기획팀장": [
+    {
+      "class": 62,
+      "studentNo": 21,
+      "name": "이채연",
+      "isleader": true
+    }
+  ],
   "기획": [
     {
       "class": 6,

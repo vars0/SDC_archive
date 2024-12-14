@@ -20,18 +20,22 @@
       "isleader": true
     }
   ],
-  "기획팀장": {
-    "class": 63,
-    "studentNo": 22,
-    "name": "이재욱",
-    "isleader": true
-  },
-  "무대감독": {
-    "class": 61,
-    "studentNo": 20,
-    "name": "정준원",
-    "isleader": true
-  },
+  "기획팀장": [
+    {
+      "class": 63,
+      "studentNo": 22,
+      "name": "이재욱",
+      "isleader": true
+    }
+  ],
+  "무대감독": [
+    {
+      "class": 61,
+      "studentNo": 20,
+      "name": "정준원",
+      "isleader": true
+    }
+  ],
   "기획": [
     {
       "class": 63,

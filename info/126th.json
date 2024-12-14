@@ -6,23 +6,29 @@
   "times": 5,
   "place": "소극장 무극",
   "poster": "https://127th.skkudramaclub.kr/",
-  "연출": {
-    "class": 61,
-    "studentNo": 20,
-    "name": "정준원",
-    "isleader": true
-  },
-  "조연출": {
-    "class": 64,
-    "studentNo": 23,
-    "name": "김현승"
-  },
-  "기획팀장": {
-    "class": 64,
-    "studentNo": 20,
-    "name": "손현빈",
-    "isleader": true
-  },
+  "연출": [
+    {
+      "class": 61,
+      "studentNo": 20,
+      "name": "정준원",
+      "isleader": true
+    }
+  ],
+  "조연출": [
+    {
+      "class": 64,
+      "studentNo": 23,
+      "name": "김현승"
+    }
+  ],
+  "기획팀장": [
+    {
+      "class": 64,
+      "studentNo": 20,
+      "name": "손현빈",
+      "isleader": true
+    }
+  ],
   "기획": [
     {
       "class": 64,
