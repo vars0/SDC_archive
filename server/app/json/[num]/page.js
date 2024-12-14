@@ -19,7 +19,7 @@ export default function Home(props) {
   useEffect(() => {
     const fetchJsonData = async () => {
       try {
-        const response = await fetch("/api/fileLoad?filePath=uploads/123th.json");
+        const response = await fetch(`/api/fileLoad?filePath=uploads/${num}.json`);
         if (!response.ok) {
           throw new Error("데이터 로드 실패");
         }
@@ -56,6 +56,7 @@ export default function Home(props) {
       <CrewEditor type="연출" data={data} onUpdate={handleUpdate} />
       <CrewEditor type="조연출" data={data} onUpdate={handleUpdate} />
       <CrewEditor type="기획팀장" data={data} onUpdate={handleUpdate} />
+      {/* <CrewEditor type="무대감독" data={data} onUpdate={handleUpdate} /> */}
       <CrewEditor type="기획" data={data} onUpdate={handleUpdate} />
       <CrewEditor type="무대" data={data} onUpdate={handleUpdate} />
       <CrewEditor type="조명" data={data} onUpdate={handleUpdate} />
