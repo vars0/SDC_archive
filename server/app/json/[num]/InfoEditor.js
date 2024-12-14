@@ -16,7 +16,7 @@ const InfoEditor = ({ data, onUpdate }) => {
   return (
     <div className={styles.infoEditor}>
       <h2>공연 정보 편집기</h2>
-      
+
       <div className={styles.inputGroup}>
         <label>Title</label>
         <input
@@ -26,7 +26,7 @@ const InfoEditor = ({ data, onUpdate }) => {
           placeholder="Title"
         />
       </div>
-      
+
       <div className={styles.inputGroup}>
         <label>Short Title</label>
         <input
@@ -36,7 +36,7 @@ const InfoEditor = ({ data, onUpdate }) => {
           placeholder="Short Title"
         />
       </div>
-      
+
       <div className={styles.inputGroup}>
         <label>Subtitle</label>
         <input
@@ -46,7 +46,7 @@ const InfoEditor = ({ data, onUpdate }) => {
           placeholder="Subtitle"
         />
       </div>
-      
+
       <div className={styles.inputGroup}>
         <label>Date</label>
         <input
@@ -56,17 +56,20 @@ const InfoEditor = ({ data, onUpdate }) => {
           placeholder="Date"
         />
       </div>
-      
+
       <div className={styles.inputGroup}>
         <label>Times</label>
         <input
           type="number"
-          value={infoData.times}
-          onChange={(e) => handleChange("times", e.target.value)}
+          value={infoData.times || ""} // 값이 undefined 또는 null일 때 빈 문자열을 설정
+          onChange={(e) => {
+            const value = e.target.value ? Number(e.target.value) : ""; // 빈 문자열을 처리하고 숫자로 변환
+            handleChange("times", value); // 숫자 값으로 전달
+          }}
           placeholder="Times"
         />
       </div>
-      
+
       <div className={styles.inputGroup}>
         <label>Place</label>
         <input
@@ -76,7 +79,7 @@ const InfoEditor = ({ data, onUpdate }) => {
           placeholder="Place"
         />
       </div>
-      
+
       <div className={styles.inputGroup}>
         <label>Poster URL</label>
         <input

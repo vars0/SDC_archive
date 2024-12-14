@@ -21,13 +21,13 @@
   margin-bottom: 10px;
 }
 
-.castEditor input[type="text"] {
+.castEditor input {
   width: 150px;
   margin-right: 10px;
 }
 
-.crewEditor div {
-  width: 200px;
+.castEditor div {
+  width: 150px;
   margin-right: 10px;
 }
 

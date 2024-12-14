@@ -21,13 +21,18 @@
   margin-bottom: 10px;
 }
 
-.crewEditor input[type="text"] {
-  width: 200px;
+.crewEditor input {
+  width: 150px;
   margin-right: 10px;
 }
 
+.crewEditor input[type="checkbox"] {
+  width: 50px;
+  margin-right: 110px;
+}
+
 .crewEditor div {
-  width: 200px;
+  width: 150px;
   margin-right: 10px;
 }
 

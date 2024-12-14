@@ -36,15 +36,10 @@ const CastEditor = ({ data, rawData, onUpdate }) => {
           <div>기수</div>
           <div>학번</div>
           <div>이름</div>
+          <div>배역</div>
         </li>
         {castList.map((cast, index) => (
           <li key={index}>
-            <input
-              type="text"
-              value={cast.role}
-              onChange={(e) => handleChange(index, "role", e.target.value)}
-              placeholder="Role"
-            />
             <input
               type="text"
               value={cast.class}
@@ -62,6 +57,12 @@ const CastEditor = ({ data, rawData, onUpdate }) => {
               value={cast.name}
               onChange={(e) => handleChange(index, "name", e.target.value)}
               placeholder="Name"
+            />
+            <input
+              type="text"
+              value={cast.role}
+              onChange={(e) => handleChange(index, "role", e.target.value)}
+              placeholder="Role"
             />
             <button onClick={() => handleDelete(index)}>
               <img src="/trashcan.svg" alt="Delete" width="24" height="24" />
