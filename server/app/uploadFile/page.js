@@ -15,7 +15,7 @@ const UploadFile = () => {
   const handleUpload = async () => {
     if (!file) return alert("파일을 선택하세요!");
 
-    const storageRef = ref(storage, `uploads/${file.name}`);
+    const storageRef = ref(storage, `info/${file.name}`);
     try {
       await uploadBytes(storageRef, file);
       const downloadURL = await getDownloadURL(storageRef);

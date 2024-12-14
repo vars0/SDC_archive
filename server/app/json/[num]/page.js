@@ -20,7 +20,7 @@ export default function Home(props) {
     const fetchJsonData = async () => {
       try {
         const response = await fetch(
-          `/api/fileDownload?filePath=uploads/${num}.json`
+          `/api/fileDownload?filePath=info/${num}.json`
         );
         if (!response.ok) {
           throw new Error("데이터 로드 실패");
@@ -53,7 +53,7 @@ export default function Home(props) {
           "Content-Type": "application/json",
         },
         body: JSON.stringify({
-          filePath: `uploads/${num}.json`, // 저장할 파일 경로
+          filePath: `info/${num}.json`, // 저장할 파일 경로
           content: data, // 업로드할 데이터
         }),
       });
