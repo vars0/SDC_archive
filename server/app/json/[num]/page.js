@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import InfoEditor from "./InfoEditor";
 import CastEditor from "./CastEditor";
 import CrewEditor from "./CrewEditor";
+import UploadStatus from "./UploadStatus";
 import styles from "./page.module.css";
 import { use } from "react";
 
@@ -12,13 +13,14 @@ export default function Home(props) {
   const num = para.num;
 
   const [data, setData] = useState(null);
-  // const [error, setError] = useState(null);
+  const [uploadStatus, setUploadStatus] = useState("idle"); // 업로드 상태: idle, uploading, success, error
 
+  //json 데이터 다운로드
   useEffect(() => {
     const fetchJsonData = async () => {
       try {
         const response = await fetch(
-          `/api/fileLoad?filePath=uploads/${num}.json`
+          `/api/fileDownload?filePath=uploads/${num}.json`
         );
         if (!response.ok) {
           throw new Error("데이터 로드 실패");
@@ -33,9 +35,46 @@ export default function Home(props) {
     fetchJsonData();
   }, []);
 
+  // 업로드 상태 초기화 (3초 후)
+  useEffect(() => {
+    if (uploadStatus === "success" || uploadStatus === "error") {
+      const timer = setTimeout(() => setUploadStatus("idle"), 3000);
+      return () => clearTimeout(timer); // 컴포넌트 언마운트 시 타이머 정리
+    }
+  }, [uploadStatus]);
+
+  //json 파일 업로드
+  const uploadFile = async () => {
+    setUploadStatus("uploading"); // 업로드 시작
+    try {
+      const response = await fetch("/api/fileUpload", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          filePath: `uploads/${num}.json`, // 저장할 파일 경로
+          content: data, // 업로드할 데이터
+        }),
+      });
+
+      const result = await response.json();
+      if (!response.ok) {
+        throw new Error(result.error || "업로드 실패");
+      }
+
+      setUploadStatus("success"); // 업로드 성공
+      console.log("업로드 성공:", result);
+    } catch (error) {
+      setUploadStatus("error"); // 업로드 실패
+      console.error("업로드 중 오류 발생:", error);
+    }
+  };
+
   const handleUpdate = (updatedData) => {
     setData(updatedData);
   };
+
   const crewTypes = [
     "연출",
     "조연출",
@@ -49,6 +88,7 @@ export default function Home(props) {
     "음향",
     "의소분",
   ];
+
   const renderCrewEditors = () => {
     return crewTypes.map((type) => {
       if (data[type] && data[type].length > 0) {
@@ -99,10 +139,13 @@ export default function Home(props) {
   // console.log(Data);
   return (
     <div className={styles.container}>
-      <h1>{data.title}</h1>
-      {/* <button className={styles.button} onClick={saveData}>
-        Save
-      </button> */}
+      <h1>{num}.json</h1>
+
+      <div style={{ display: "flex", alignItems: "center", gap: "10px" }}>
+        <button className={styles.button} onClick={uploadFile}>파일 업로드</button>
+        <UploadStatus status={uploadStatus} />
+      </div>
+      
       <InfoEditor data={data} onUpdate={handleUpdate} />
 
       <div className={styles.roleContainer}>
