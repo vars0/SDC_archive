@@ -2,7 +2,7 @@
 .castEditor {
   background-color: #fff;
   border-radius: 8px;
-  padding: 20px;
+  padding: 2vw;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   margin-top: 20px;
 }
@@ -23,11 +23,13 @@
 
 .castEditor input {
   width: 150px;
+  max-width: calc(17vw - 8px);
   margin-right: 10px;
 }
 
 .castEditor div {
   width: 150px;
+  max-width: calc(17vw - 8px);
   margin-right: 10px;
 }
 

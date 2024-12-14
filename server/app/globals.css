@@ -46,7 +46,7 @@ header div {
 
 /* Style for the main content area */
 main {
-  padding: 2rem;
+  padding-top: 2rem;
   background-color: #fff;
   min-height: 100vh;
   display: flex;

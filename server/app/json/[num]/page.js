@@ -26,7 +26,6 @@ export default function Home(props) {
           throw new Error("데이터 로드 실패");
         }
         setData(await response.json());
-        console.log("JSON 데이터:", data);
       } catch (error) {
         console.error("오류 발생:", error);
       }
@@ -130,9 +129,9 @@ export default function Home(props) {
     }
   };
 
-  useEffect(() => {
-    console.log("Data change", data);
-  }, [data]);
+  // useEffect(() => {
+  //   console.log("Data change", data);
+  // }, [data]);
 
   if (!data) return <div>Loading...</div>;
 

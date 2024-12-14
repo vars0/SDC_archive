@@ -1,8 +1,9 @@
 /* styles/page.module.css */
 .container {
-  width: 80%;
-  margin: 0 auto;
-  padding: 20px;
+  width: calc(80vw + 30px);
+
+  margin: 0 calc(10vw - 15px);
+  /* padding: 20px; */
   background-color: #fafafa;
 }
 

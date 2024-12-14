@@ -68,14 +68,16 @@ const CrewEditor = ({ type, data, onUpdate }) => {
               }
               placeholder="Name"
             />
-            <input
-              type="checkbox"
-              checked={member.isleader} // 체크박스가 체크되어 있는지 여부를 상태에서 가져옵니다.
-              onChange={
-                (e) => handleChange(type, index, "isleader", e.target.checked) // 체크박스가 체크되었는지 여부(true/false)로 값을 전달합니다.
-              }
-              placeholder="isleader"
-            />
+            <div className={styles.isleader}>
+              <input
+                type="checkbox"
+                checked={member.isleader} // 체크박스가 체크되어 있는지 여부를 상태에서 가져옵니다.
+                onChange={
+                  (e) => handleChange(type, index, "isleader", e.target.checked) // 체크박스가 체크되었는지 여부(true/false)로 값을 전달합니다.
+                }
+                placeholder="isleader"
+              />
+            </div>
             <button onClick={() => handleDelete(type, index)}>
               <img src="/trashcan.svg" alt="Delete" width="24" height="24" />
             </button>

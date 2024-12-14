@@ -2,7 +2,7 @@
 .crewEditor {
   background-color: #fff;
   border-radius: 8px;
-  padding: 20px;
+  padding: 2vw;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   margin-top: 20px;
 }
@@ -23,16 +23,21 @@
 
 .crewEditor input {
   width: 150px;
+  max-width: calc(17vw - 8px);
   margin-right: 10px;
 }
 
 .crewEditor input[type="checkbox"] {
-  width: 50px;
-  margin-right: 110px;
+  width: 53px;
+}
+
+.isleader {
+  display: flex;
 }
 
 .crewEditor div {
   width: 150px;
+  max-width: calc(17vw - 8px);
   margin-right: 10px;
 }
 
