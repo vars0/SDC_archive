@@ -7,7 +7,6 @@ import CrewEditor from "./CrewEditor";
 import UploadStatus from "./UploadStatus";
 import styles from "./page.module.css";
 import { use } from "react";
-import { storage, ref, uploadString, getDownloadURL } from "../../../firebaseConfig";
 
 export default function Home(props) {
   const para = use(props.params);
@@ -16,29 +15,24 @@ export default function Home(props) {
   const [data, setData] = useState(null);
   const [uploadStatus, setUploadStatus] = useState("idle"); // 업로드 상태: idle, uploading, success, error
 
+  //json 데이터 다운로드
   useEffect(() => {
-    // Firebase Storage에서 JSON 파일 가져오기
-    const fetchData = async () => {
+    const fetchJsonData = async () => {
       try {
-        // 파일의 참조를 가져옵니다.
-        const fileRef = ref(storage, `info/${num}.json`);
-
-        // 파일의 다운로드 URL을 가져옵니다.
-        const url = await getDownloadURL(fileRef);
-
-        // 다운로드한 URL로부터 데이터를 fetch하여 JSON으로 파싱
-        const response = await fetch(url);
-        const jsonData = await response.json();
-
-        // 데이터를 상태로 설정
-        setData(jsonData);
-      } catch (err) {
-        console.error("Error fetching data from Firebase Storage:", err);
+        const response = await fetch(
+          `/api/fileDownload?filePath=info/${num}.json`
+        );
+        if (!response.ok) {
+          throw new Error("데이터 로드 실패");
+        }
+        setData(await response.json());
+      } catch (error) {
+        console.error("오류 발생:", error);
       }
     };
 
-    fetchData();
-  }, []); // 페이지 로드 시 한 번만 실행
+    fetchJsonData();
+  }, []);
 
   // 업로드 상태 초기화 (3초 후)
   useEffect(() => {
@@ -48,26 +42,28 @@ export default function Home(props) {
     }
   }, [uploadStatus]);
 
-  // 업로드 함수
+  //json 파일 업로드
   const uploadFile = async () => {
     setUploadStatus("uploading"); // 업로드 시작
     try {
-      const filePath = `info/${num}.json`; // 업로드할 파일 경로
-
-      // 파일 참조 생성
-      const fileRef = ref(storage, filePath);
-
-      // 데이터를 JSON 문자열로 변환하여 업로드
-      const jsonData = JSON.stringify(data);
-      await uploadString(fileRef, jsonData, "raw", {
-        contentType: "application/json",
+      const response = await fetch("/api/fileUpload", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          filePath: `info/${num}.json`, // 저장할 파일 경로
+          content: data, // 업로드할 데이터
+        }),
       });
 
-      // 업로드 후 다운로드 URL을 가져옵니다.
-      const url = await getDownloadURL(fileRef);
-      console.log("파일 업로드 성공. 다운로드 URL:", url);
+      const result = await response.json();
+      if (!response.ok) {
+        throw new Error(result.error || "업로드 실패");
+      }
 
       setUploadStatus("success"); // 업로드 성공
+      console.log("업로드 성공:", result);
     } catch (error) {
       setUploadStatus("error"); // 업로드 실패
       console.error("업로드 중 오류 발생:", error);
@@ -145,12 +141,10 @@ export default function Home(props) {
       <h1>{num}.json</h1>
 
       <div style={{ display: "flex", alignItems: "center", gap: "10px" }}>
-        <button className={styles.button} onClick={uploadFile}>
-          파일 업로드
-        </button>
+        <button className={styles.button} onClick={uploadFile}>파일 업로드</button>
         <UploadStatus status={uploadStatus} />
       </div>
-
+      
       <InfoEditor data={data} onUpdate={handleUpdate} />
 
       <div className={styles.roleContainer}>
