@@ -1143,6 +1143,30 @@
     "director": "장연희"
   },
 
+  "W49thHssc": {
+    "id": 49,
+    "key": "W49H",
+    "title": "Almost Maine",
+    "subtitle": "제49회 명륜 신입생 워크샵"
+  },
+  "W49thNsc": {
+    "id": 49,
+    "key": "W49N",
+    "title": "택시드리벌",
+    "subtitle": "제49회 율전 신입생 워크샵"
+  },
+  "W50thNsc": {
+    "id": 50,
+    "key": "W50N",
+    "title": "황색여관",
+    "subtitle": "제50회 신입생 워크샵"
+  },
+  "W51thHssc": {
+    "id": 51,
+    "key": "W51H",
+    "title": "원더풀 라이프",
+    "subtitle": "제51회 워크샵"
+  },
   "W52th": {
     "id": 52,
     "key": "W52",
