@@ -1,1141 +1,1141 @@
 {
-  "P1th": {
+  "1th": {
     "id": 1,
-    "key": "P1",
+    "key": "1",
     "title": "아름다운청춘",
     "subtitle": "1948 제1회 대공연",
     "year": 1948,
     "author": "김성호(안영일 각색)",
     "director": "현민"
   },
-  "P2th": {
+  "2th": {
     "id": 2,
-    "key": "P2",
+    "key": "2",
     "title": "깨어진 항아리",
     "subtitle": "1949 제2회 대공연",
     "year": 1949,
     "author": "H.V.크레이스트",
     "director": "이화삼"
   },
-  "P3th": {
+  "3th": {
     "id": 3,
-    "key": "P3",
+    "key": "3",
     "title": "흙벽은 무너진다",
     "subtitle": "1959 제3회 대공연",
     "year": 1959,
     "author": "심영식",
     "director": "심영식"
   },
-  "P4th": {
+  "4th": {
     "id": 4,
-    "key": "P4",
+    "key": "4",
     "title": "성자의 샘",
     "subtitle": "1960 제4회 대공연",
     "year": 1960,
     "author": "J.M.싱크",
     "director": "이기하"
   },
-  "P5th": {
+  "5th": {
     "id": 5,
-    "key": "P5",
+    "key": "5",
     "title": "장남의 권리",
     "subtitle": "1962 제5회 대공연",
     "year": 1962,
     "author": "T.V.머레이",
     "director": "정해완"
   },
-  "P6th": {
+  "6th": {
     "id": 6,
-    "key": "P6",
+    "key": "6",
     "title": "삼중인격",
     "subtitle": "1963 제6회 대공연",
     "year": 1963,
     "author": "이용찬",
     "director": "이석구"
   },
-  "P7th": {
+  "7th": {
     "id": 7,
-    "key": "P7",
+    "key": "7",
     "title": "불모지",
     "subtitle": "1963 제7회 대공연",
     "year": 1963,
     "author": "차범석",
     "director": "정해완"
   },
-  "P8th": {
+  "8th": {
     "id": 8,
-    "key": "P8",
+    "key": "8",
     "title": "모자에 가득한 빗물",
     "subtitle": "1964 제8회 대공연",
     "year": 1964,
     "author": "까소",
     "director": "정해완"
   },
-  "P9th": {
+  "9th": {
     "id": 9,
-    "key": "P9",
+    "key": "9",
     "title": "목격자",
     "subtitle": "1964 제9회 대공연",
     "year": 1964,
     "author": "N.앤더슨",
     "director": "정해완"
   },
-  "P10th": {
+  "10th": {
     "id": 10,
-    "key": "P10",
+    "key": "10",
     "title": "무덤없는 주검",
     "subtitle": "1966 제10회 대공연",
     "year": 1966,
     "author": "J.P.사르크르",
     "director": "한국환"
   },
-  "P11th": {
+  "11th": {
     "id": 11,
-    "key": "P11",
+    "key": "11",
     "title": "마리우스",
     "subtitle": "1967 제11회 대공연",
     "year": 1967,
     "author": "M.빠놀",
     "director": "나영세"
   },
-  "P12th": {
+  "12th": {
     "id": 12,
-    "key": "P12",
+    "key": "12",
     "title": "어느 날의 환상",
     "subtitle": "1967 제12회 대공연",
     "year": 1967,
     "author": "하유상",
     "director": "조경희"
   },
-  "P13th": {
+  "13th": {
     "id": 13,
-    "key": "P13",
+    "key": "13",
     "title": "쎄실",
     "subtitle": "1967 제13회 대공연",
     "year": 1967,
     "author": "안누이유",
     "director": "조경희"
   },
-  "P14th": {
+  "14th": {
     "id": 14,
-    "key": "P14",
+    "key": "14",
     "title": "크노크",
     "subtitle": "1968 제14회 대공연",
     "year": 1968,
     "author": "줄르로맹",
     "director": "정해완"
   },
-  "P15th": {
+  "15th": {
     "id": 15,
-    "key": "P15",
+    "key": "15",
     "title": "고래",
     "subtitle": "1968 제15회 대공연",
     "year": 1968,
     "author": "유진오닐",
     "director": "조경희"
   },
-  "P16th": {
+  "16th": {
     "id": 16,
-    "key": "P16",
+    "key": "16",
     "title": "인간증오자",
     "subtitle": "1969 제16회 대공연",
     "year": 1969,
     "author": "몰리에르",
     "director": "표재순"
   },
-  "P17th": {
+  "17th": {
     "id": 17,
-    "key": "P17",
+    "key": "17",
     "title": "벙어리부인…",
     "subtitle": "1969 제17회 대공연",
     "year": 1969,
     "author": "A.프랑스",
     "director": "김현일"
   },
-  "P18th": {
+  "18th": {
     "id": 18,
-    "key": "P18",
+    "key": "18",
     "title": "즉흥극",
     "subtitle": "1969 제18회 대공연",
     "year": 1969,
     "author": "T.모젤",
     "director": "박진수"
   },
-  "P19th": {
+  "19th": {
     "id": 19,
-    "key": "P19",
+    "key": "19",
     "title": "메씨나의 신부",
     "subtitle": "1970 제19회 대공연",
     "year": 1970,
     "author": "F.쉴러",
     "director": "신공웅"
   },
-  "P20th": {
+  "20th": {
     "id": 20,
-    "key": "P20",
+    "key": "20",
     "title": "거기 누구 있소?",
     "subtitle": "1970 제20회 대공연",
     "year": 1970,
     "author": "W.사로얀",
     "director": "박순종"
   },
-  "P21th": {
+  "21th": {
     "id": 21,
-    "key": "P21",
+    "key": "21",
     "title": "점을 칩니다",
     "subtitle": "1970 제21회 대공연",
     "year": 1970,
     "author": "오재호",
     "director": "김세중"
   },
-  "P22th": {
+  "22th": {
     "id": 22,
-    "key": "P22",
+    "key": "22",
     "title": "노부인의 방문",
     "subtitle": "1971 제22회 대공연",
     "year": 1971,
     "author": "뒤렌마트",
     "director": "윤황"
   },
-  "P23th": {
+  "23th": {
     "id": 23,
-    "key": "P23",
+    "key": "23",
     "title": "벙어리부인…",
     "subtitle": "1971 제23회 대공연",
     "year": 1971,
     "author": "A.프랑스",
     "director": "윤황"
   },
-  "P24th": {
+  "24th": {
     "id": 24,
-    "key": "P24",
+    "key": "24",
     "title": "양주별산대",
     "subtitle": "1972 제24회 대공연",
     "year": 1972,
     "author": "민속극",
     "director": "김세중"
   },
-  "P25th": {
+  "25th": {
     "id": 25,
-    "key": "P25",
+    "key": "25",
     "title": "아버지 연설",
     "subtitle": "1973 제25회 대공연",
     "year": 1973,
     "author": "기프와시",
     "director": "김상득"
   },
-  "P26th": {
+  "26th": {
     "id": 26,
-    "key": "P26",
+    "key": "26",
     "title": "안나 막달레나",
     "subtitle": "1973 제26회 대공연",
     "year": 1973,
     "author": "쿠르트피츠",
     "director": "김상득"
   },
-  "P27th": {
+  "27th": {
     "id": 27,
-    "key": "P27",
+    "key": "27",
     "title": "양주별산대",
     "subtitle": "1973 제27회 대공연",
     "year": 1973,
     "author": "민속극",
     "director": "김상득"
   },
-  "P28th": {
+  "28th": {
     "id": 28,
-    "key": "P28",
+    "key": "28",
     "title": "석회무덤",
     "subtitle": "1973 제28회 대공연",
     "year": 1973,
     "author": "이강백",
     "director": "정동환"
   },
-  "P29th": {
+  "29th": {
     "id": 29,
-    "key": "P29",
+    "key": "29",
     "title": "잠남들",
     "subtitle": "1974 제29회 대공연",
     "year": 1974,
     "author": "겔드로드",
     "director": "최흥순"
   },
-  "P30th": {
+  "30th": {
     "id": 30,
-    "key": "P30",
+    "key": "30",
     "title": "성균산대놀이",
     "subtitle": "1974 제30회 대공연",
     "year": 1974,
     "author": "민속극",
     "director": "김상득"
   },
-  "P31th": {
+  "31th": {
     "id": 31,
-    "key": "P31",
+    "key": "31",
     "title": "갈증",
     "subtitle": "1974 제31회 대공연",
     "year": 1974,
     "author": "김상득",
     "director": "김상득"
   },
-  "P32th": {
+  "32th": {
     "id": 32,
-    "key": "P32",
+    "key": "32",
     "title": "청혼",
     "subtitle": "1975 제32회 대공연",
     "year": 1975,
     "author": "안톤체홉",
     "director": "김상득"
   },
-  "P33th": {
+  "33th": {
     "id": 33,
-    "key": "P33",
+    "key": "33",
     "title": "뜨거운 양철 지붕 위의 고양이",
     "subtitle": "1975 제33회 대공연",
     "year": 1975,
     "author": "T.윌리엄스",
     "director": "이윤영"
   },
-  "P34th": {
+  "34th": {
     "id": 34,
-    "key": "P34",
+    "key": "34",
     "title": "꿈",
     "subtitle": "1976 제34회 대공연",
     "year": 1976,
     "author": "체홉",
     "director": "이영원"
   },
-  "P35th": {
+  "35th": {
     "id": 35,
-    "key": "P35",
+    "key": "35",
     "title": "잠적",
     "subtitle": "1976 제35회 대공연",
     "year": 1976,
     "author": "하인리히뷜",
     "director": "박종원"
   },
-  "P36th": {
+  "36th": {
     "id": 36,
-    "key": "P36",
+    "key": "36",
     "title": "포기와베스",
     "subtitle": "1976 제36회 대공연",
     "year": 1976,
     "author": "헤이워드부처",
     "director": "김효경"
   },
-  "P37th": {
+  "37th": {
     "id": 37,
-    "key": "P37",
+    "key": "37",
     "title": "불어를 하세요",
     "subtitle": "1977 제37회 대공연",
     "year": 1977,
     "author": "메레이시스칼",
     "director": "최윤광"
   },
-  "P38th": {
+  "38th": {
     "id": 38,
-    "key": "P38",
+    "key": "38",
     "title": "즉흥극",
     "subtitle": "1977 제38회 대공연",
     "year": 1977,
     "author": "T.모젤",
     "director": "이정훈"
   },
-  "P39th": {
+  "39th": {
     "id": 39,
-    "key": "P39",
+    "key": "39",
     "title": "초분 (문행소극장개관공연)",
     "subtitle": "1977 제39회 대공연",
     "year": 1977,
     "author": "오태석",
     "director": "이영원"
   },
-  "P40th": {
+  "40th": {
     "id": 40,
-    "key": "P40",
+    "key": "40",
     "title": "아르쉬트룩대왕",
     "subtitle": "1979 제40회 대공연",
     "year": 1979,
     "author": "로베르뺑쥐",
     "director": "최윤광"
   },
-  "P41th": {
+  "41th": {
     "id": 41,
-    "key": "P41",
+    "key": "41",
     "title": "어디서 무엇이 되어 만나랴",
     "subtitle": "1978 제41회 대공연",
     "year": 1978,
     "author": "최인훈",
     "director": "이영원"
   },
-  "P42th": {
+  "42th": {
     "id": 42,
-    "key": "P42",
+    "key": "42",
     "title": "태양이 닿지 않는 벽",
     "subtitle": "1979 제42회 대공연",
     "year": 1979,
     "author": "김청원",
     "director": "배인수"
   },
-  "P43th": {
+  "43th": {
     "id": 43,
-    "key": "P43",
+    "key": "43",
     "title": "어디서 무엇이 되어 만나랴",
     "subtitle": "1979 제43회 대공연",
     "year": 1979,
     "author": "최인훈",
     "director": "이정훈"
   },
-  "P44th": {
+  "44th": {
     "id": 44,
-    "key": "P44",
+    "key": "44",
     "title": "어느 극작가의 하루",
     "subtitle": "1980 제44회 대공연",
     "year": 1980,
     "author": "장아누이(이희석 번역)",
     "director": "이희석"
   },
-  "P45th": {
+  "45th": {
     "id": 45,
-    "key": "P45",
+    "key": "45",
     "title": "환절기",
     "subtitle": "1981 제45회 대공연",
     "year": 1981,
     "author": "오태석",
     "director": "구재헌"
   },
-  "P46th": {
+  "46th": {
     "id": 46,
-    "key": "P46",
+    "key": "46",
     "title": "달아 달아 밝은 달아",
     "subtitle": "1981 제46회 대공연",
     "year": 1981,
     "author": "최인훈",
     "director": "구재헌"
   },
-  "P47th": {
+  "47th": {
     "id": 47,
-    "key": "P47",
+    "key": "47",
     "title": "엄중한 감시",
     "subtitle": "1982 제47회 대공연",
     "year": 1982,
     "author": "장쥬네",
     "director": "구재헌"
   },
-  "P48th": {
+  "48th": {
     "id": 48,
-    "key": "P48",
+    "key": "48",
     "title": "쿠크박사의 정원",
     "subtitle": "1982 제48회 대공연",
     "year": 1982,
     "author": "아이라레빈",
     "director": "신향순"
   },
-  "P49th": {
+  "49th": {
     "id": 49,
-    "key": "P49",
+    "key": "49",
     "title": "황무지",
     "subtitle": "1982 제49회 대공연",
     "year": 1982,
     "author": "T.S.엘리어드",
     "director": "이흥환"
   },
-  "P50th": {
+  "50th": {
     "id": 50,
-    "key": "P50",
+    "key": "50",
     "title": "Homecoming",
     "subtitle": "1983 제50회 대공연",
     "year": 1983,
     "author": "헤롤드핀터",
     "director": "유재오"
   },
-  "P51th": {
+  "51th": {
     "id": 51,
-    "key": "P51",
+    "key": "51",
     "title": "허생전",
     "subtitle": "1983 제51회 대공연",
     "year": 1983,
     "author": "오명진(극회구성)",
     "director": "안은섭"
   },
-  "P52th": {
+  "52th": {
     "id": 52,
-    "key": "P52",
+    "key": "52",
     "title": "뚜뚜뚜루뚜",
     "subtitle": "1984 제52회 대공연",
     "year": 1984,
     "author": "심연숙",
     "director": "신의주"
   },
-  "P53th": {
+  "53th": {
     "id": 53,
-    "key": "P53",
+    "key": "53",
     "title": "농녀",
     "subtitle": "1984 제53회 대공연",
     "year": 1984,
     "author": "윤조경",
     "director": "유재오"
   },
-  "P54th": {
+  "54th": {
     "id": 54,
-    "key": "P54",
+    "key": "54",
     "title": "죽음의 덫",
     "subtitle": "1985 제54회 대공연",
     "year": 1985,
     "author": "아이라레빈",
     "director": "이용훈"
   },
-  "P55th": {
+  "55th": {
     "id": 55,
-    "key": "P55",
+    "key": "55",
     "title": "신의 침묵",
     "subtitle": "1985 제55회 대공연",
     "year": 1985,
     "author": "장자크킴",
     "director": "임성주"
   },
-  "P56th": {
+  "56th": {
     "id": 56,
-    "key": "P56",
+    "key": "56",
     "title": "마음은 늘 딴 곳에",
     "subtitle": "1986 제56회 대공연",
     "year": 1986,
     "author": "사이먼그레이",
     "director": "구재헌"
   },
-  "P57th": {
+  "57th": {
     "id": 57,
-    "key": "P57",
+    "key": "57",
     "title": "오해",
     "subtitle": "1986 제57회 대공연",
     "year": 1986,
     "author": "A.까뮈",
     "director": "신의주"
   },
-  "P58th": {
+  "58th": {
     "id": 58,
-    "key": "P58",
+    "key": "58",
     "title": "태",
     "subtitle": "1987 제58회 대공연",
     "year": 1987,
     "author": "오태석",
     "director": "정진섭"
   },
-  "P59th": {
+  "59th": {
     "id": 59,
-    "key": "P59",
+    "key": "59",
     "title": "아벨만의 재판",
     "subtitle": "1988 제59회 대공연",
     "year": 1988,
     "author": "이근삼",
     "director": "김성규"
   },
-  "P60th": {
+  "60th": {
     "id": 60,
-    "key": "P60",
+    "key": "60",
     "title": "길",
     "subtitle": "1989 제60회 대공연",
     "year": 1989,
     "author": "김상렬",
     "director": "홍인표"
   },
-  "P61th": {
+  "61th": {
     "id": 61,
-    "key": "P61",
+    "key": "61",
     "title": "한씨연대기",
     "subtitle": "1989 제61회 대공연",
     "year": 1989,
     "author": "황석영",
     "director": "손영준"
   },
-  "P62th": {
+  "62th": {
     "id": 62,
-    "key": "P62",
+    "key": "62",
     "title": "마스터 헤롤드",
     "subtitle": "1990 제62회 대공연",
     "year": 1990,
     "author": "아돌후가드",
     "director": "조영석"
   },
-  "P63th": {
+  "63th": {
     "id": 63,
-    "key": "P63",
+    "key": "63",
     "title": "새벽출정",
     "subtitle": "1990 제63회 대공연",
     "year": 1990,
     "author": "방현석(극회 각색)",
     "director": "윤덕영"
   },
-  "P64th": {
+  "64th": {
     "id": 64,
-    "key": "P64",
+    "key": "64",
     "title": "만선",
     "subtitle": "1991 제64회 대공연",
     "year": 1991,
     "author": "천승세",
     "director": "안석원"
   },
-  "P65th": {
+  "65th": {
     "id": 65,
-    "key": "P65",
+    "key": "65",
     "title": "사천의 착한 여인",
     "subtitle": "1991 제65회 대공연",
     "year": 1991,
     "author": "브레이트",
     "director": "윤덕영"
   },
-  "P66th": {
+  "66th": {
     "id": 66,
-    "key": "P66",
+    "key": "66",
     "title": "꽃입저서파",
     "subtitle": "1992 제66회 대공연",
     "year": 1992,
     "author": "오태영",
     "director": "한상아"
   },
-  "P67th": {
+  "67th": {
     "id": 67,
-    "key": "P67",
+    "key": "67",
     "title": "쥬라기 사람들",
     "subtitle": "1992 제67회 대공연",
     "year": 1992,
     "author": "이강백",
     "director": "김경미"
   },
-  "P68th": {
+  "68th": {
     "id": 68,
-    "key": "P68",
+    "key": "68",
     "title": "에쿠우스",
     "subtitle": "1993 제68회 대공연",
     "year": 1993,
     "author": "피터쉐퍼",
     "director": "김완택"
   },
-  "P69th": {
+  "69th": {
     "id": 69,
-    "key": "P69",
+    "key": "69",
     "title": "칠산리",
     "subtitle": "1993 제69회 대공연",
     "year": 1993,
     "author": "이강백",
     "director": "박인기"
   },
-  "P70th": {
+  "70th": {
     "id": 70,
-    "key": "P70",
+    "key": "70",
     "title": "돼지와 오토바이",
     "subtitle": "1994 제70회 대공연",
     "year": 1994,
     "author": "이만희",
     "director": "이형균"
   },
-  "P71th": {
+  "71th": {
     "id": 71,
-    "key": "P71",
+    "key": "71",
     "title": "덴동어미화전가",
     "subtitle": "1994 제71회 대공연",
     "year": 1994,
     "author": "부녀가사",
     "director": "김범수"
   },
-  "P72th": {
+  "72th": {
     "id": 72,
-    "key": "P72",
+    "key": "72",
     "title": "비 올 확률 50%",
     "subtitle": "1995 제72회 대공연",
     "year": 1995,
     "author": "공동창작",
     "director": "송종혁"
   },
-  "P73th": {
+  "73th": {
     "id": 73,
-    "key": "P73",
+    "key": "73",
     "title": "북어대가리",
     "subtitle": "1995 제73회 대공연",
     "year": 1995,
     "author": "이강백",
     "director": "강동오"
   },
-  "P74th": {
+  "74th": {
     "id": 74,
-    "key": "P74",
+    "key": "74",
     "title": "해 뜨는 밤",
     "subtitle": "1996 제74회 대공연",
     "year": 1996,
     "author": "배현경, 도영택",
     "director": "도영택"
   },
-  "P75th": {
+  "75th": {
     "id": 75,
-    "key": "P75",
+    "key": "75",
     "title": "라구요",
     "subtitle": "1996 제75회 대공연",
     "year": 1996,
     "author": "김대현",
     "director": "심대환"
   },
-  "P76th": {
+  "76th": {
     "id": 76,
-    "key": "P76",
+    "key": "76",
     "title": "영원행일기",
     "subtitle": "1997 제76회 대공연",
     "year": 1997,
     "author": "이강백",
     "director": "이준현"
   },
-  "P77th": {
+  "77th": {
     "id": 77,
-    "key": "P77",
+    "key": "77",
     "title": "걱정만리",
     "subtitle": "1997 제77회 대공연",
     "year": 1997,
     "author": "김명곤",
     "director": "이형걸"
   },
-  "P78th": {
+  "78th": {
     "id": 78,
-    "key": "P78",
+    "key": "78",
     "title": "선택98",
     "subtitle": "1998 제78회 대공연",
     "year": 1998,
     "author": "공동창작",
     "director": "이종근"
   },
-  "P79th": {
+  "79th": {
     "id": 79,
-    "key": "P79",
+    "key": "79",
     "title": "서툰 사람들",
     "subtitle": "1998 제79회 대공연",
     "year": 1998,
     "author": "장진",
     "director": "김갑현"
   },
-  "P80th": {
+  "80th": {
     "id": 80,
-    "key": "P80",
+    "key": "80",
     "title": "자살에 관하여",
     "subtitle": "1999 제80회 대공연",
     "year": 1999,
     "author": "이강백",
     "director": "임준현"
   },
-  "P81th": {
+  "81th": {
     "id": 81,
-    "key": "P81",
+    "key": "81",
     "title": "매직타임",
     "subtitle": "1999 제81회 대공연",
     "year": 1999,
     "author": "장진",
     "director": "유지영"
   },
-  "P82th": {
+  "82th": {
     "id": 82,
-    "key": "P82",
+    "key": "82",
     "title": "짓",
     "subtitle": "2000 제82회 대공연",
     "year": 2000,
     "author": "공동창작",
     "director": "안세영"
   },
-  "P83th": {
+  "83th": {
     "id": 83,
-    "key": "P83",
+    "key": "83",
     "title": "A.D 313",
     "subtitle": "2000 제83회 대공연",
     "year": 2000,
     "author": "박재서",
     "director": "임준현"
   },
-  "P84th": {
+  "84th": {
     "id": 84,
-    "key": "P84",
+    "key": "84",
     "title": "처녀비해",
     "subtitle": "2001 제84회 대공연",
     "year": 2001,
     "author": "이만희",
     "director": "조영주"
   },
-  "P85th": {
+  "85th": {
     "id": 85,
-    "key": "P85",
+    "key": "85",
     "title": "나무꾼과 호랑이",
     "subtitle": "2001 제85회 대공연",
     "year": 2001,
     "author": "공동창작",
     "director": "정현석"
   },
-  "P86th": {
+  "86th": {
     "id": 86,
-    "key": "P86",
+    "key": "86",
     "title": "마녀사냥",
     "subtitle": "2002 제86회 대공연",
     "year": 2002,
     "author": "변영국",
     "director": "김갑현"
   },
-  "P87th": {
+  "87th": {
     "id": 87,
-    "key": "P87",
+    "key": "87",
     "title": "처용",
     "subtitle": "2002 제87회 대공연",
     "year": 2002,
     "author": "공동창작",
     "director": "정현석"
   },
-  "P88th": {
+  "88th": {
     "id": 88,
-    "key": "P88",
+    "key": "88",
     "title": "너가 누구?",
     "subtitle": "2003 제88회 대공연",
     "year": 2003,
     "author": "까몰리떼",
     "director": "지형주"
   },
-  "P89th": {
+  "89th": {
     "id": 89,
-    "key": "P89",
+    "key": "89",
     "title": "노을에 학이 지다",
     "subtitle": "2003 제89회 대공연",
     "year": 2003,
     "author": "기노시다 준지",
     "director": "박의성"
   },
-  "P90th": {
+  "90th": {
     "id": 90,
-    "key": "P90",
+    "key": "90",
     "title": "오아시스 세탁소 습격사건",
     "subtitle": "2004 제90회 대공연",
     "year": 2004,
     "author": "김정숙",
     "director": "김진욱"
   },
-  "P91th": {
+  "91th": {
     "id": 91,
-    "key": "P91",
+    "key": "91",
     "title": "청춘예찬",
     "subtitle": "2004 제91회 대공연",
     "year": 2004,
     "author": "박근형",
     "director": "김진호"
   },
-  "P92th": {
+  "92th": {
     "id": 92,
-    "key": "P92",
+    "key": "92",
     "title": "사랑을 주세요",
     "subtitle": "2005 제92회 대공연",
     "year": 2005,
     "author": "닐 사이먼",
     "director": "윤재원"
   },
-  "P93th": {
+  "93th": {
     "id": 93,
-    "key": "P93",
+    "key": "93",
     "title": "의자는 잘못없다",
     "subtitle": "2005 제93회 대공연",
     "year": 2005,
     "author": "선욱현",
     "director": "김진호"
   },
-  "P94th": {
+  "94th": {
     "id": 94,
-    "key": "P94",
+    "key": "94",
     "title": "택시드리벌",
     "subtitle": "2006 제94회 대공연",
     "year": 2006,
     "author": "장진",
     "director": "주양돈"
   },
-  "P95th": {
+  "95th": {
     "id": 95,
-    "key": "P95",
+    "key": "95",
     "title": "미친햄릿",
     "subtitle": "2006 제95회 대공연",
     "year": 2006,
     "author": "김민호",
     "director": "정영래"
   },
-  "P96th": {
+  "96th": {
     "id": 96,
-    "key": "P96",
+    "key": "96",
     "title": "맨드라미 꽃",
     "subtitle": "2007 제96회 대공연",
     "year": 2007,
     "author": "이강백",
     "director": "전순택"
   },
-  "P97th": {
+  "97th": {
     "id": 97,
-    "key": "P97",
+    "key": "97",
     "title": "해가 지면 달이 뜨고",
     "subtitle": "2007 제97회 대공연",
     "year": 2007,
     "author": "김태수",
     "director": "신동현"
   },
-  "P98th": {
+  "98th": {
     "id": 98,
-    "key": "P98",
+    "key": "98",
     "title": "사랑을 믿다",
     "subtitle": "2008 제98회 대공연",
     "year": 2008,
     "author": "극회창작(박세준)",
     "director": "임호재"
   },
-  "P99th": {
+  "99th": {
     "id": 99,
-    "key": "P99",
+    "key": "99",
     "title": "맨발로 공원을",
     "subtitle": "2008 제99회 대공연",
     "year": 2008,
     "author": "닐 사이먼",
     "director": "오동민"
   },
-  "P100th": {
+  "100th": {
     "id": 100,
-    "key": "P100",
+    "key": "100",
     "title": "그 남자는 거기 없었다",
     "subtitle": "2009 제100회 대공연",
     "year": 2009,
     "author": "코엔형제(오정도 각색)",
     "director": "오동민"
   },
-  "P101th": {
+  "101th": {
     "id": 101,
-    "key": "P101",
+    "key": "101",
     "title": "어떤 사건",
     "subtitle": "2009 제101회 대공연",
     "year": 2009,
     "author": "이성호",
     "director": "조아라"
   },
-  "P102th": {
+  "102th": {
     "id": 102,
-    "key": "P102",
+    "key": "102",
     "title": "뷰티풀 선데이",
     "subtitle": "2010 제102회 대공연",
     "year": 2010,
     "author": "나카타니 마유미",
     "director": "조아라"
   },
-  "P103th": {
+  "103th": {
     "id": 103,
-    "key": "P103",
+    "key": "103",
     "title": "철수와 만수",
     "subtitle": "2010 제103회 대공연",
     "year": 2010,
     "author": "오종우",
     "director": "박보람"
   },
-  "P104th": {
+  "104th": {
     "id": 104,
-    "key": "P104",
+    "key": "104",
     "title": "건달의 웨딩마치",
     "subtitle": "2011 제104회 대공연",
     "year": 2011,
     "author": "닐 사이먼",
     "director": "박보람, 임학균"
   },
-  "P105th": {
+  "105th": {
     "id": 105,
-    "key": "P105",
+    "key": "105",
     "title": "아빠들의 소꿉놀이",
     "subtitle": "2011 제105회 대공연",
     "year": 2011,
     "author": "오세혁",
     "director": "양동석"
   },
-  "P106th": {
+  "106th": {
     "id": 106,
-    "key": "P106",
+    "key": "106",
     "title": "개그맨",
     "subtitle": "2012 제106회 대공연",
     "year": 2012,
     "author": "이명세",
     "director": "김지수"
   },
-  "P107th": {
+  "107th": {
     "id": 107,
-    "key": "P107",
+    "key": "107",
     "title": "그 여자들, 다시 통닭을 먹다",
     "subtitle": "2012 제107회 대공연",
     "year": 2012,
     "author": "강병헌",
     "director": "임현영"
   },
-  "P108th": {
+  "108th": {
     "id": 108,
-    "key": "P108",
+    "key": "108",
     "title": "도덕적 도둑",
     "subtitle": "2013 제108회 대공연",
     "year": 2013,
     "author": "다리오프",
     "director": "변다인"
   },
-  "P109th": {
+  "109th": {
     "id": 109,
-    "key": "P109",
+    "key": "109",
     "title": "거짓말의 발명",
     "subtitle": "2013 제109회 대공연",
     "year": 2013,
     "author": "릭키 제바이스, 매튜 로빈슨",
     "director": "라영란"
   },
-  "P110th": {
+  "110th": {
     "id": 110,
-    "key": "P110",
+    "key": "110",
     "title": "사랑을 찾아서",
     "subtitle": "2014 제110회 대공연",
     "year": 2014,
     "author": "김광림",
     "director": "오동민"
   },
-  "P111th": {
+  "111th": {
     "id": 111,
-    "key": "P111",
+    "key": "111",
     "title": "그녀들만 아는 공소시효",
     "subtitle": "2014 제111회 대공연",
     "year": 2014,
     "author": "김란이",
     "director": "장요훈"
   },
-  "P112th": {
+  "112th": {
     "id": 112,
-    "key": "P112",
+    "key": "112",
     "title": "올모스트 메인",
     "subtitle": "2015 제112회 대공연",
     "year": 2015,
     "author": "존 카리아니",
     "director": "이지완"
   },
-  "P113th": {
+  "113th": {
     "id": 113,
-    "key": "P113",
+    "key": "113",
     "title": "기막힌 동거",
     "subtitle": "2015 제113회 대공연",
     "year": 2015,
     "author": "김은정",
     "director": "최영현"
   },
-  "P114th": {
+  "114th": {
     "id": 114,
-    "key": "P114",
+    "key": "114",
     "title": "곰, 청혼",
     "subtitle": "2016 제114회 대공연",
     "year": 2016,
     "author": "안톤 체홉",
     "director": "박선준"
   },
-  "P115th": {
+  "115th": {
     "id": 115,
-    "key": "P115",
+    "key": "115",
     "title": "개천의 용간지",
     "subtitle": "2016 제115회 대공연",
     "year": 2016,
     "author": "한현주",
     "director": "이소정"
   },
-  "P116th": {
+  "116th": {
     "id": 116,
-    "key": "P116",
+    "key": "116",
     "title": "춘천 거기",
     "subtitle": "2017 제116회 대공연",
     "year": 2017,
     "author": "김한길",
     "director": "박선준"
   },
-  "P117th": {
+  "117th": {
     "id": 117,
-    "key": "P117",
+    "key": "117",
     "title": "어느 인생",
     "subtitle": "2017 제117회 대공연",
     "year": 2017,
     "author": "기 드 모파상(박민주 각색)",
     "director": "박민주"
   },
-  "P118th": {
+  "118th": {
     "id": 118,
-    "key": "P118",
+    "key": "118",
     "title": "대학살의 신",
     "subtitle": "2018 제118회 대공연",
     "year": 2018,
     "author": "야스미나 레자",
     "director": "곽현철"
   },
-  "P119th": {
+  "119th": {
     "id": 119,
-    "key": "P119",
+    "key": "119",
     "title": "토지",
     "subtitle": "2018 제119회 대공연",
     "year": 2018,
     "author": "박경리",
     "director": "박선준"
   },
-  "P120th": {
+  "120th": {
     "id": 120,
-    "key": "P120",
+    "key": "120",
     "title": "라스트 나잇 온 어스",
     "subtitle": "2019 제120회 대공연",
     "year": 2019,
     "author": "임진환",
     "director": "임진환"
   },
-  "P121th": {
+  "121th": {
     "id": 121,
-    "key": "P121",
+    "key": "121",
     "title": "Dear Evan Hansen(코로나-19로 중단)",
     "subtitle": "2020 제121회 대공연",
     "year": 2020,
     "author": "스티븐 레벤슨",
     "director": "조영진"
   },
-  "P122th": {
+  "122th": {
     "id": 122,
-    "key": "P122",
+    "key": "122",
     "title": "원더풀 라이프",
     "subtitle": "2021 제122회 대공연",
     "year": 2021,
     "author": "고레에다 히로카즈(조영진 임진환 이창기 각색)",
     "director": "조영진"
   },
-  "P123th": {
+  "123th": {
     "id": 123,
-    "key": "P123",
+    "key": "123",
     "title": "점과 점을, 잇는 선...(후략)",
     "subtitle": "2022 제123회 여름대공연",
     "year": 2022,
     "author": "후지타 다카히로",
     "director": "이창기"
   },
-  "P124th": {
+  "124th": {
     "id": 124,
-    "key": "P124",
+    "key": "124",
     "title": "분장실",
     "subtitle": "2023 제124회 겨울대공연",
     "year": 2023,
     "author": "시미즈 쿠니오",
     "director": "장연희, 장선웅"
   },
-  "P125th": {
+  "125th": {
     "id": 125,
-    "key": "P125",
+    "key": "125",
     "title": "보도지침",
     "subtitle": "2023 제125회 여름대공연",
     "year": 2023,
     "author": "오세혁",
     "director": "허은세"
   },
-  "P126th": {
+  "126th": {
     "id": 126,
-    "key": "P126",
+    "key": "126",
     "title": "친절한 식구들",
     "subtitle": "2024 제126회 겨울대공연",
     "year": 2024,
     "author": "이도경",
     "director": "정준원"
   },
-  "P127th": {
+  "127th": {
     "id": 127,
-    "key": "P127",
+    "key": "127",
     "title": "빵",
     "subtitle": "2025 제127회 여름대공연",
     "year": 2025,
