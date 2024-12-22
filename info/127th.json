@@ -7,309 +7,69 @@
   "place": "대학로 R&J 씨어터",
   "poster": "https://127th.skkudramaclub.kr/",
   "연출": [
-    {
-      "class": 63,
-      "studentNo": 22,
-      "name": "장연희",
-      "isleader": true
-    }
+    { "class": 63, "studentNo": 22, "name": "장연희", "isleader": true }
   ],
   "조연출": [
-    {
-      "class": 64,
-      "studentNo": 23,
-      "name": "송하연",
-      "isleader": true
-    }
+    { "class": 64, "studentNo": 23, "name": "송하연", "isleader": true }
   ],
   "기획팀장": [
-    {
-      "class": 64,
-      "studentNo": 23,
-      "name": "금유빈",
-      "isleader": true
-    }
+    { "class": 64, "studentNo": 23, "name": "금유빈", "isleader": true }
   ],
   "기획": [
-    {
-      "class": 65,
-      "studentNo": 21,
-      "name": "강민성",
-      "isleader": false
-    },
-    {
-      "class": 64,
-      "studentNo": 23,
-      "name": "김명후",
-      "isleader": false
-    },
-    {
-      "class": 65,
-      "studentNo": 24,
-      "name": "김예나",
-      "isleader": false
-    },
-    {
-      "class": 65,
-      "studentNo": 24,
-      "name": "김예은",
-      "isleader": false
-    },
-    {
-      "class": 65,
-      "studentNo": 24,
-      "name": "김유진",
-      "isleader": false
-    },
-    {
-      "class": 64,
-      "studentNo": 23,
-      "name": "엄유상",
-      "isleader": false
-    },
-    {
-      "class": 62,
-      "studentNo": 21,
-      "name": "엄현식",
-      "isleader": false
-    },
-    {
-      "class": 61,
-      "studentNo": 20,
-      "name": "정준원",
-      "isleader": false
-    }
+    { "class": 65, "studentNo": 21, "name": "강민성", "isleader": false },
+    { "class": 64, "studentNo": 23, "name": "김명후", "isleader": false },
+    { "class": 65, "studentNo": 24, "name": "김예나", "isleader": false },
+    { "class": 65, "studentNo": 24, "name": "김예은", "isleader": false },
+    { "class": 65, "studentNo": 24, "name": "김유진", "isleader": false },
+    { "class": 64, "studentNo": 23, "name": "엄유상", "isleader": false },
+    { "class": 62, "studentNo": 21, "name": "엄현식", "isleader": false },
+    { "class": 61, "studentNo": 20, "name": "정준원", "isleader": false }
   ],
   "무대": [
-    {
-      "class": 64,
-      "studentNo": 23,
-      "name": "박인수",
-      "isleader": true
-    },
-    {
-      "class": 64,
-      "studentNo": 23,
-      "name": "강민재",
-      "isleader": false
-    },
-    {
-      "class": 64,
-      "studentNo": 23,
-      "name": "강성휘",
-      "isleader": false
-    },
-    {
-      "class": 65,
-      "studentNo": 24,
-      "name": "김민서",
-      "isleader": false
-    },
-    {
-      "class": 65,
-      "studentNo": 19,
-      "name": "박진현",
-      "isleader": false
-    },
-    {
-      "class": 6,
-      "studentNo": 18,
-      "name": "백제준",
-      "isleader": false
-    },
-    {
-      "class": 64,
-      "studentNo": 20,
-      "name": "손현빈",
-      "isleader": false
-    },
-    {
-      "class": 6,
-      "studentNo": 20,
-      "name": "신준호",
-      "isleader": false
-    },
-    {
-      "class": 6,
-      "studentNo": 20,
-      "name": "이예원",
-      "isleader": false
-    },
-    {
-      "class": 64,
-      "studentNo": 22,
-      "name": "조윤서",
-      "isleader": false
-    },
-    {
-      "class": 65,
-      "studentNo": 23,
-      "name": "최지민",
-      "isleader": false
-    },
-    {
-      "class": 64,
-      "studentNo": 20,
-      "name": "한광현",
-      "isleader": false
-    }
+    { "class": 64, "studentNo": 23, "name": "박인수", "isleader": true },
+    { "class": 64, "studentNo": 23, "name": "강민재", "isleader": false },
+    { "class": 64, "studentNo": 23, "name": "강성휘", "isleader": false },
+    { "class": 65, "studentNo": 24, "name": "김민서", "isleader": false },
+    { "class": 65, "studentNo": 19, "name": "박진현", "isleader": false },
+    { "class": 6, "studentNo": 18, "name": "백제준", "isleader": false },
+    { "class": 64, "studentNo": 20, "name": "손현빈", "isleader": false },
+    { "class": 6, "studentNo": 20, "name": "신준호", "isleader": false },
+    { "class": 6, "studentNo": 20, "name": "이예원", "isleader": false },
+    { "class": 64, "studentNo": 22, "name": "조윤서", "isleader": false },
+    { "class": 65, "studentNo": 23, "name": "최지민", "isleader": false },
+    { "class": 64, "studentNo": 20, "name": "한광현", "isleader": false }
   ],
   "조명": [
-    {
-      "class": 64,
-      "studentNo": 23,
-      "name": "윤태우",
-      "isleader": true
-    },
-    {
-      "class": 65,
-      "studentNo": 23,
-      "name": "김민지",
-      "isleader": false
-    },
-    {
-      "class": 65,
-      "studentNo": 24,
-      "name": "김소연",
-      "isleader": false
-    },
-    {
-      "class": 65,
-      "studentNo": 24,
-      "name": "박이삭",
-      "isleader": false
-    },
-    {
-      "class": 65,
-      "studentNo": 24,
-      "name": "박찬하",
-      "isleader": false
-    },
-    {
-      "class": 65,
-      "studentNo": 21,
-      "name": "박혜린",
-      "isleader": false
-    },
-    {
-      "class": 65,
-      "studentNo": 24,
-      "name": "신윤주",
-      "isleader": false
-    },
-    {
-      "class": 65,
-      "studentNo": 24,
-      "name": "양현석",
-      "isleader": false
-    },
-    {
-      "class": 64,
-      "studentNo": 23,
-      "name": "이하겸",
-      "isleader": false
-    }
+    { "class": 64, "studentNo": 23, "name": "윤태우", "isleader": true },
+    { "class": 65, "studentNo": 23, "name": "김민지", "isleader": false },
+    { "class": 65, "studentNo": 24, "name": "김소연", "isleader": false },
+    { "class": 65, "studentNo": 24, "name": "박이삭", "isleader": false },
+    { "class": 65, "studentNo": 24, "name": "박찬하", "isleader": false },
+    { "class": 65, "studentNo": 21, "name": "박혜린", "isleader": false },
+    { "class": 65, "studentNo": 24, "name": "신윤주", "isleader": false },
+    { "class": 65, "studentNo": 24, "name": "양현석", "isleader": false },
+    { "class": 64, "studentNo": 23, "name": "이하겸", "isleader": false }
   ],
   "음향": [
-    {
-      "class": 64,
-      "studentNo": 23,
-      "name": "한기주",
-      "isleader": true
-    },
-    {
-      "class": 65,
-      "studentNo": 23,
-      "name": "강민지",
-      "isleader": false
-    },
-    {
-      "class": 65,
-      "studentNo": 20,
-      "name": "곽상현",
-      "isleader": false
-    },
-    {
-      "class": 64,
-      "studentNo": 23,
-      "name": "김준서",
-      "isleader": false
-    },
-    {
-      "class": 64,
-      "studentNo": 20,
-      "name": "박단",
-      "isleader": false
-    },
-    {
-      "class": 64,
-      "studentNo": 23,
-      "name": "최아야",
-      "isleader": false
-    }
+    { "class": 64, "studentNo": 23, "name": "한기주", "isleader": true },
+    { "class": 65, "studentNo": 23, "name": "강민지", "isleader": false },
+    { "class": 65, "studentNo": 20, "name": "곽상현", "isleader": false },
+    { "class": 64, "studentNo": 23, "name": "김준서", "isleader": false },
+    { "class": 64, "studentNo": 20, "name": "박단", "isleader": false },
+    { "class": 64, "studentNo": 23, "name": "최아야", "isleader": false }
   ],
   "의소분": [
-    {
-      "class": 63,
-      "studentNo": 22,
-      "name": "정하은",
-      "isleader": true
-    },
-    {
-      "class": 64,
-      "studentNo": 21,
-      "name": "김미희",
-      "isleader": false
-    },
-    {
-      "class": 65,
-      "studentNo": 24,
-      "name": "서은정",
-      "isleader": false
-    },
-    {
-      "class": 63,
-      "studentNo": 22,
-      "name": "이지수",
-      "isleader": false
-    },
-    {
-      "class": 65,
-      "studentNo": 24,
-      "name": "최서연",
-      "isleader": false
-    }
+    { "class": 63, "studentNo": 22, "name": "정하은", "isleader": true },
+    { "class": 64, "studentNo": 21, "name": "김미희", "isleader": false },
+    { "class": 65, "studentNo": 24, "name": "서은정", "isleader": false },
+    { "class": 63, "studentNo": 22, "name": "이지수", "isleader": false },
+    { "class": 65, "studentNo": 24, "name": "최서연", "isleader": false }
   ],
   "캐스트": [
-    {
-      "role": "",
-      "class": 64,
-      "studentNo": 23,
-      "name": "박가영"
-    },
-    {
-      "role": "",
-      "class": 65,
-      "studentNo": 24,
-      "name": "변정인"
-    },
-    {
-      "role": "",
-      "class": 63,
-      "studentNo": 18,
-      "name": "엄태웅"
-    },
-    {
-      "role": "",
-      "class": 65,
-      "studentNo": 22,
-      "name": "이서진"
-    },
-    {
-      "role": "",
-      "class": 65,
-      "studentNo": 24,
-      "name": "정세현"
-    }
+    { "role": "", "class": 64, "studentNo": 23, "name": "박가영" },
+    { "role": "", "class": 65, "studentNo": 24, "name": "변정인" },
+    { "role": "", "class": 63, "studentNo": 18, "name": "엄태웅" },
+    { "role": "", "class": 65, "studentNo": 22, "name": "이서진" },
+    { "role": "", "class": 65, "studentNo": 24, "name": "정세현" }
   ]
 }

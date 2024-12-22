@@ -18,6 +18,8 @@ export default function RootLayout({
         <header>
           <Link href={"/"}>profile</Link>
           <Link href={"/file"}>route</Link>
+          <Link href={"/fileViewer"}>fileViewer</Link>
+          <Link href={"/fileDownLoader"}>fileDownLoader</Link>
           <Link href={"/json"}>json</Link>
           <Link href={"/uploadFile"}>upload</Link>
         </header>
