@@ -1137,8 +1137,8 @@
     "id": 127,
     "key": "127",
     "title": "빵",
-    "subtitle": "2025 제127회 여름대공연",
-    "year": 2025,
+    "subtitle": "2024 제127회 여름대공연",
+    "year": 2024,
     "author": "오태영",
     "director": "장연희"
   },
@@ -1146,55 +1146,91 @@
   "W49thHssc": {
     "id": 49,
     "key": "W49H",
+    "type": "명륜",
     "title": "Almost Maine",
-    "subtitle": "제49회 명륜 신입생 워크샵"
+    "subtitle": "제49회 명륜 신입생 워크샵",
+    "year": 2018,
+    "author": "존 카리아니",
+    "director": ""
   },
   "W49thNsc": {
     "id": 49,
     "key": "W49N",
+    "type": "율전",
     "title": "택시드리벌",
-    "subtitle": "제49회 율전 신입생 워크샵"
+    "subtitle": "제49회 율전 신입생 워크샵",
+    "year": 2018,
+    "author": "장진",
+    "director": "함동휘"
   },
   "W50thNsc": {
     "id": 50,
     "key": "W50N",
+    "type": "율전",
     "title": "황색여관",
-    "subtitle": "제50회 신입생 워크샵"
+    "subtitle": "제50회 신입생 워크샵",
+    "year": 2019,
+    "author": "이강백",
+    "director": "유찬희"
   },
   "W51thHssc": {
     "id": 51,
     "key": "W51H",
+    "type": "명륜",
     "title": "원더풀 라이프",
-    "subtitle": "제51회 워크샵"
+    "subtitle": "제51회 워크샵",
+    "year": 2020,
+    "author": "고레에다 히로카즈",
+    "director": ""
   },
   "W52th": {
     "id": 52,
     "key": "W52",
+    "type": "통합",
     "title": "올모스트메인",
-    "subtitle": "2021 제52회 워크샵"
+    "subtitle": "2021 제52회 워크샵",
+    "year": 2021,
+    "author": "존 카리아니",
+    "director": ""
   },
   "W53th": {
     "id": 53,
     "key": "W53",
+    "type": "통합",
     "title": "올모스트메인",
-    "subtitle": "2022 제53회 워크샵"
+    "subtitle": "2022 제53회 워크샵",
+    "year": 2022,
+    "author": "존 카리아니",
+    "director": "정준원, 허은세"
   },
   "W54th": {
     "id": 54,
     "key": "W54",
+    "type": "통합",
     "title": "올모스트메인",
-    "subtitle": "2023 제54회 워크샵"
+    "subtitle": "2023 제54회 워크샵",
+    "year": 2023,
+    "author": "존 카리아니",
+    "director": "장선웅, 이재홍"
   },
   "W55thHssc": {
     "id": 55,
     "key": "W55H",
+    "type": "명륜",
     "title": "dOnut",
-    "subtitle": "2024 제55회 명륜캠퍼스 신입생워크샵"
+    "subtitle": "2024 제55회 명륜캠퍼스 신입생워크샵",
+    "year": 2024,
+    "author": "이예찬",
+    "director": "김현승"
   },
   "W55thNsc": {
     "id": 55,
     "key": "W55N",
+    "type": "율전",
     "title": "도덕적도둑",
-    "subtitle": "2024 제55회 율전캠퍼스 신입생워크샵"
+    "subtitle": "2024 제55회 율전캠퍼스 신입생워크샵",
+    "year": 2024,
+    "author": "다리오 포",
+    "director": "엄태웅"
   }
 }
