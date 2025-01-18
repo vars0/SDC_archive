@@ -3,7 +3,7 @@ import styles from "./page.module.css";
 
 export default function Page() {
   const perform = Array.from(
-    { length: 127 - 118 + 1 },
+    { length: 127 - 1 + 1 },
     (_, index) => 127 - index
   );
 
@@ -34,6 +34,9 @@ export default function Page() {
         </Link>
         <Link href={"/json/W51thHssc"} className={styles.link}>
           51회 명륜 워크샵
+        </Link>
+        <Link href={"/json/W50thHssc"} className={styles.link}>
+          50회 명륜 워크샵
         </Link>
         <Link href={"/json/W50thNsc"} className={styles.link}>
           50회 율전 워크샵
